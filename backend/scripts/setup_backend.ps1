@@ -1,0 +1,44 @@
+# Setup script for RoadWatch backend (Windows PowerShell)
+# Run as: Open PowerShell in this folder and run `.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Write-Host "Setup complete. Start server with: .\venv\Scripts\python.exe manage.py runserver 0.0.0.0:8000"Write-Host "Run 'python manage.py createsuperuser' if you want to create one now."Write-Host "Creating superuser (interactive)"python manage.py migrate --noinputpython manage.py makemigrations --noinputWrite-Host "Running makemigrations and migrate..."}    pip freeze > requirements.txt    pip install django==4.2.0 djangorestframework==3.14.0 django-cors-headers==4.2.0 pillow==10.0.0 numpy==1.24.3} else {    pip install -r requirements.txtif (Test-Path requirements.txt) {python -m pip install --upgrade pipWrite-Host "Upgrading pip and installing requirements...". .\venv\Scripts\Activate.ps1Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser -Force | Out-NullWrite-Host "Activating virtual environment..."}    Write-Host "Virtual environment already exists. Skipping creation."} else {    python -m venv venv    Write-Host "Creating virtual environment..."if (-Not (Test-Path .\venv\Scripts\python.exe)) {}    Remove-Item -Recurse -Force .\venv    Write-Host "Removing existing venv (this is destructive)..."if ($recreateVenv) {Write-Host "== RoadWatch Backend Setup ==")    [switch]$recreateVenvparam(un_setup.ps1`

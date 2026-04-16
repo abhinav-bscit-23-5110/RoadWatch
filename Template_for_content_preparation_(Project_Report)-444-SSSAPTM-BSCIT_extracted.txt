@@ -1,0 +1,2141 @@
+Source: c:\Users\abhin\Downloads\Template_for_content_preparation_(Project_Report)-444-SSSAPTM-BSCIT.docx
+Paragraphs: 2138
+
+001 [Heading1] “<Write your Project Title>”
+002 [BodyText] A
+003 [BodyText] Project Report
+004 [] Submitted in partial fulfillment of the requirement for the award of Degree of
+005 [BodyText] Bachelor of Science in Information Technology
+006 [BodyText] Submitted to
+007 [] 444 - Swatantrata Senani Shankarlal Agarwal Prabandhan
+008 [Heading2] Avum Takniki Mahavidyalay, Patna
+009 [] Swatantrata Senani Shankarlal Agarwal Prabandhan
+010 [] Avum Takniki Mahavidyalay, Patna
+011 [Heading2] Department of Computer Science & Applications
+012 [Heading2] Session 2023-2026
+013 [] DATE:…………………
+014 [] CERTIFICATE
+015 [] This is to certify that the work embodies in this project entitled, “<your project title”, being submitted by <your name> (<your registration no.>) in partial fulfillment of the requirement for the award of “Bachelor of Science in Information Technology” to PATLIPUTRA UNIVERSITY, PATNA during the academic year 2022-25 is a record of bonafide piece of work, carried out by him/her under our/my supervision and guidance in the “Department of Computer Science & Applications”, SSSAPTM, Patna.
+016 [] Swatantrata Senani Shankarlal Agarwal Prabandhan
+017 [] Avum Takniki Mahavidyalay, Patna
+018 [Heading2] Department of Computer Science & Applications
+019 [Heading2] Session 2023-2026
+020 [BodyText] Date:
+021 [] APPROVAL CERTIFICATE
+022 [] The project report entitled  “<your project title”, being submitted by
+023 [] <your name> (<your registration number>) has been examined by us and is hereby approved for the award of degree “Bachelor of Science in Information Technology”, for which it has been submitted. It is understood that by this approval the undersigned do not necessarily endorse or approve any statement made, the opinion expressed or conclusion drawn therein, but approve the project only for the purpose for which it has been submitted.
+024 [] (Internal Examiner)(External Examiner)
+025 [] Date:Date:
+026 [] Swatantrata Senani Shankarlal Agarwal Prabandhan
+027 [] Avum Takniki Mahavidyalay, Patna
+028 [Heading2] Department of Computer Science & Applications
+029 [Heading2] Session 2023-2026
+030 [BodyText] Date:
+031 [] DECLARATION
+032 [] I, <your name> hereby declare that the work, which is being presented in the project report entitled “<your project title>”, partial fulfillment of the requirements for the award of degree of “Bachelor of Science in Information Technology” submitted in the department of Computer Science & Applications (SSSAPTM) is an authentic record of my                own work carried under the joint guidance of Prof. Niraj Kumar Singh Sir and Prof. Anjesh Kumar Sir. I have not submitted the matter embodied in this report for the award of any other degree.
+033 [] <your name> Registration No : <your reg. no.> B.Sc.IT 3rd Year
+034 [] Session-2023-2026
+035 [BodyText] ACKNOWLEDGEMENT
+036 [] “A journey is easier when you travel together. Interdependence is certainly more valuable than
+037 [] independence.”
+038 [] I would like to thanks, Prof. Niraj Kumar Singh Sir and Prof. Anjesh Kumar Sir, for providing regular guidance and insight into my project work. I also thank them for all advice he has given me in the past year, and for always having time for me, whenever I needed.
+039 [] I give special thanks to Dr. Amit Kumar Shukla Sir, Prof. Raju Upadhyay Sir, and Prof. Ravi Kumar Soni Sir for always being willing to help find solutions to any problems I had with my work.
+040 [] “The completion of any project depends upon the cooperation, coordination, and combined efforts of several resources of knowledge, inspiration, and energy”.
+041 [] I also extend my deepest gratitude to Director, CIMAGE GROUP OF INSTITUITIONS, PATNA, Dr. Neeraj Agrawal Sir, Dean CIMAGE GROUP OF INSTITUITIONS, PATNA, Dr. Neeraj Kumar Sir and Centre Head Mrs. Megha Agrawal Ma’am for providing all the necessary facilities and true encouraging environment to bring out the best in my endeavors.
+042 [] I express my gratitude and thanks to all the staff members of Computer Science departments for their sincere cooperation in furnishing relevant information to complete this Project well in time successfully.
+043 [] I extend a special word to my friends, who have been a constant source of inspiration throughout my project work.
+044 [] Lastly but not least I must express my cordial thank to my parent and family members who gave me the moral support without that it is impossible to complete my project work. With this note, I thank everyone for the support.
+045 [BodyText] (<your name>)
+046 [] Registration No : <your reg no.>
+047 [] B.Sc.IT 3rd Year
+048 [] Session-2023-2026
+049 [Heading1] CONTENTS
+050 [Title] SAMPLE PROJECT
+051 [Heading1] INTRODUCTION
+052 [Heading3] The “SCHOOL MANAGEMENT SYSTEM” has been design with the help of two powerful programming languages “JAVA” and “MySQL”. The “JAVA” being in the foreground and the “MySQL” in the background respectively.
+053 [] The foreground language is favorite today, due to his interactive user interface and supporting powerful tool for development of interactive software.
+054 [Heading3] The background language is favorite many of the programmers because it offers the much wanted structured query facility. The MySQL provides high security, as the database is stored in the logical area called “DB Engine”. As “DB Engine” is created in the virtual memory and end user cannot access that directly it.
+055 [] With these thoughts the “SCHOOL MANAGEMENT SYSTEM” hasbeen developed. The “JAVA” gives the interactive look and “MySQL” gives high security. The “JAVAHAR NAVODAYA VIDYALAYA” is a big school of our country, it should have high security. So the “SCHOOL MANAGEMENT SYSTEM” has been developed after brainstorming the needs and requirements of the “JAVAHAR NAVODAYA VIDYALAYA”.
+056 [Heading2] OBJECTIVE
+057 [] The motive of the project entitled “School Automation System” is to maintain all the record and activities taken place in the administrative department of the school.
+058 [Heading2] The objectives of this system:
+059 [ListParagraph] Maintain the information about students.
+060 [ListParagraph] Maintain the details of staff members.
+061 [ListParagraph] Maintain the Software user details
+062 [ListParagraph] Record the various kinds of fees details.
+063 [ListParagraph] Maintain the back-up o of software.
+064 [ListParagraph] Provide various reports like fee report, student report etc.
+065 [Heading2] PROJECT CATEGORY JAVA
+066 [] The Java is a programming language originally developed by James Gosling at Sun Microsystems (which is now a subsidiary of Oracle Corporation) and released in 1995 as a core component of Sun Microsystems' Java platform. The language derives much of its syntax from C and C++ but has a simpler object model and fewer low-level facilities. Java applications are typically compiled to bytecode (class file) that can run on any Java Virtual Machine (JVM) regardless of computer architecture. Java is general-purpose, concurrent, class-based, and object-oriented, and is specifically designed to have as few implementation dependencies as possible. It is intended to let application developers "write once, run anywhere". Java is considered by many as one of the most influential programming languages of the 20th century, and widely used from application software to web application.[9][10]
+067 [] The original and reference implementation Java compilers, virtual machines, and class libraries were developed by Sun from 1995. As of May 2007, in compliance with the specifications of the Java Community Process, Sun relicensed most of their Java technologies under the GNU General Public License. Others have also developed alternative implementations of these Sun technologies, such as the GNU Compiler for Java and GNU Classpath.
+068 [Heading2] ADVANTAGES OF JAVA
+069 [ListParagraph] Java is simple: Java was designed to be easy to use and is therefore easy to write, compile, debug, and learn than other programming languages. The reason that why Java is much simpler than C++ is because Java uses automatic memory allocation and garbage collection where else C++ requires the programmer to allocate memory and to collect garbage.
+070 [ListParagraph] Java is object-oriented: Java is object-oriented because programming in Java is centered on creating objects, manipulating objects, and making objects work together. This allows you to create modular programs and reusable code.
+071 [ListParagraph] Java is platform-independent: One of the most significant advantages of Java is its ability to move easily from one computer system to another.
+072 [ListParagraph] Java is distributed: Distributed computing involves several computers on a network working together. Java is designed to make distributed computing easy with the networking capability that is inherently integrated into it.
+073 [ListParagraph] Java is interpreted: An interpreter is needed in order to run Java programs. The programs are compiled into Java Virtual Machine code called bytecode.
+074 [ListParagraph] Java is secure: Java is one of the first programming languages to consider security as part of its design. The Java language, compiler, interpreter, and runtime environment were each developed with security in mind.
+075 [ListParagraph] Java is robust: Robust means reliable and no programming language can really assure reliability. Java puts a lot of emphasis on early checking for possible errors, as Java compilers are able to detect many problems that would first show up during execution time in other languages.
+076 [ListParagraph] Java is multithreaded: Multithreaded is the capability for a program to perform several tasks simultaneously within a program. In Java, multithreaded programming has been smoothly integrated into it, while in other languages, operating system-specific procedures have to be called in order to enable multithreading.
+077 [Heading1] TOOLS/PLATFORM REQUIRED
+078 [Heading2] Operating System
+079 [ListParagraph] Windows XP ,Windows 7.
+080 [] HARDWARE & SOFTWARE REQUIREMENTS
+081 [Heading2] Hardware Requirements:
+082 [ListParagraph] Pentium IV Processor
+083 [ListParagraph] 512 MB RAM
+084 [ListParagraph] 80 GB Hard Disk
+085 [Heading2] Software Requirements:
+086 [ListParagraph] JDK 5.0
+087 [ListParagraph] MySQL
+088 [ListParagraph] Notepad/Editor
+089 [ListParagraph] Netbeans 7.0
+090 [Heading1] PROBLEM DEFINITION
+091 [] To maintain the record of students, staffs, fees, and various users, in order to help the school administration.
+092 [] REQUIREMENT SPECIFICATIONS
+093 [] A Software Requirements Specification (SRS) is a complete description of the behavior of the system to be developed. It includes a set of use cases that describe all the interactions the users will have with the software. Use cases are also known as functional requirements. In addition to use cases, the SRS also contains non-functional (or supplementary) requirements. Non-functional requirements are requirements which impose constraints on the design or implementation (such as performance engineering requirements, quality standards, or design constraints).
+094 [] The general requirements of the project are:
+095 [ListParagraph] To maintain the admission details.
+096 [ListParagraph] To keep track the staff and students details.
+097 [Heading2] To record User details.
+098 [ListParagraph] To keep the record of various types of fee details.
+099 [ListParagraph] To keep the back-up of important data.
+100 [Heading1] PROJECT PLANNING & SCHEDULING
+101 [] Project planning is part of project management, which relates to the use of schedules such as Gantt charts to plan and subsequently report progress within the project environment.
+102 [] Initially, the project scope is defined and the appropriate methods for completing the project are determined. Following this step, the durations for the various tasks necessary to complete the work are listed and grouped into a work breakdown structure. The logical dependencies between tasks are defined using an activity network diagram that enables identification of the critical path. Float or slack time in the schedule can be calculated using software. Then the necessary resources can be estimated and costs for each activity can be allocated to each resource, giving the total project cost. At this stage, the project plan may be optimized to achieve the appropriate balance between resource usage and project duration to comply with the project objectives. Once established and agreed, the plan becomes what is known as the baseline. Progress will be measured against the baseline throughout the life of the project. Analyzing progress compared to the baseline is known as earned value management.
+103 [] The PROJECT SCHEDULE is a calendar that links the tasks to be done with the resources that will do them. Before a project schedule can be created, the project manager must have a work breakdown structure (WBS), an effort estimate for each task, and a resource list with availability for each resource. If these are not yet available, it may be possible to create something that looks like a schedule, but it will essentially be a work of fiction. A project manager’s time is better spent on working with the team to create a WBS and estimates (using a consensus-driven estimation method like Wideband Delphi than on trying to build a project schedule without them. The reason for this is that a schedule itself is an estimate: each date in the schedule is estimated, and if those dates do not have the buy-in of the people who are going to do the work, the schedule will almost certainly be inaccurate.
+104 [Heading2] GANTT CHART
+105 [] Gantt charts (developed by Henry L. Gantt) are a project control technique that can be used for several purposes including scheduling, budgeting and resource planning. A Gantt chart is a bar chart with each bar representing an activity.
+106 [] The bars are drawn against a time line. The length of each bar is proportional to the length of time planned for the activity. Gantt chart can take different phase depending on their intended use. The Gantt chart of School Management System is drawn for the time management. The Gantt chart is drawn below:
+107 [Heading2] YEAR 2015
+108 [BodyText] 15st Mar 31st March1st April30th April1st May31th May
+109 [] Start
+110 [] ANALYSI
+111 [] DESIGN    DATABASE(BACKEND)
+112 [] Design of NMS different form (Front End)
+113 [] Code data base part
+114 [] Code Part of NMS
+115 [] Report
+116 [] Write Manual
+117 [] Integration & Testing
+118 [] Finish
+119 [] PERT CHART
+120 [] PERT (Project Evaluation and Review Technique) charts consist of a network of boxes and arrows. The boxes represent activities and the arrows represent task dependencies.
+121 [] PERT is organized by events and activities or tasks. PERT have more advantages and they are likely to be used for more complex projects. Through PERT chart the various task paths are defined. PERT enables the calculation of critical path. Each path consists of combination of tasks, which must be completed. The time and the cost associated with each task along a path are calculated, and the path that requires the greatest amount of elapsed time is the critical path. Calculation of the critical path enables project manager to monitor this series of task more closely than others to shift resources to it, if it begins to fall behind schedule.
+122 [] PERT controls time and cost during the project and also facilitate finding the right balance between completing a project on time and completing it within the budget. There are thus not one but many critical paths, depending on the permutations of the estimates for each task. This makes analysis of critical path in PERT charts very complex. The PERT chart representation of the School Management System is shown below.
+123 [] 31st March
+124 [] 30th April
+125 [] 1st May
+126 [] 31st May
+127 [] P a gP a g15th MarchAnalysisPart15th MarchAnalysisPartIntegrateand TestIntegrateand TestCode Database PartCode Database PartDesignPartDesignParte 18 |
+128 [Heading1] SYSTEM ANALYSIS
+129 [] IDENTIFICATION OF NEED
+130 [] To Important Indication for software we use the Principles of Requirement Engineering. Requirement engineering provides the appropriate mechanism for understanding what the customer wants, analyzing need, assessing feasibility, negotiating a reasonable solution, specifying the solution unambiguously, validating the specification and managing the requirement as they are transformed into an operational system. The requirement engineering process can be described in five distinct steps:
+131 [] Requirement elicitation. Requirement analysis & negotiation. Requirement specification.
+132 [] System Modeling. Requirement validation. Requirement Management.
+133 [] In other words we can say that requirement analysis is a software task that bridges the gap between system level requirement engineering and software design.
+134 [] Requirement analysis allows the software engineering to refine the software allocation and build models of the data, functional and behavioral domains that will be treated by software. Requirement analysis provides the software designer with a representation of information, function and behavior that can be translated into data, architectural, interface and component level design; finally the requirement specification provides the developer and the customer with the means to assess quality once software is built.
+135 [] The most commonly used requirement elicitation technique is to conduct a meeting or interview. The first meeting between a software engineer and customer can be likened to the awareness of a first date between to adolescents. Neither person knows what to
+136 [] say or ask; Both are worried that what they do say will be misinterpreted; both are thinking about where it might lead (Both likely have radically different expectation here); Both want to get the think over with, but at the same time, both want it to be a success.
+137 [] Here according to this principle the analyst starts by asking context-free-questions.   That is a set of question that will lead to a basic understanding of the problem, the people who want a solution, the nature of solution that is desired, and the effectiveness of the first
+138 [] encounter itself. The first set of Context-free question focuses on the customer, the overall goals, and the benefits. For example, the analyst might ask: -
+139 [] Who is behind the request for this Work? Who will use the solution?
+140 [] What will be economic benefit of a successful solution? Is there another source for the solution that you need?
+141 [] The next set of questions enables the software engineer to gain a better Understanding of the problem and the customer to voice his or her perceptions about a solution: -
+142 [] How would you characterize “good” output that would be generated by
+143 [] a successful solution?
+144 [] What problem(s) will this solution address?
+145 [] Can you show me (or describe) the environment in which the solution will be used?
+146 [] Will special performance issues or constraints affect the way the solution is approached?
+147 [] The final set of question focuses on the effectiveness of the meeting:
+148 [] Are you the right person to answer these questions? Are your answers?
+149 [] Official”?
+150 [] Are my questions relevant to the problem that you have? Am I asking too many questions?
+151 [] Can anyone else provide additional information? Should I be asking you anything else?
+152 [] According to the above concepts I went to institution and met its staffs, management, and some persons related with the organizational work, which advised me related with my project such as details of agent, policy related information will be cater this system.
+153 [] Preliminary Investigation: -
+154 [] The first step in the system development life cycle is the preliminary investigation to determine the feasibility of the System. The purpose of the preliminary investigation is to evaluate project requests. It is not a design study nor does it includes the collection of details top describe the business system in all respect. Rather, it is collecting of information that helps committee members to evaluate the merits of the project request and make an informed judgment about the feasibility of the proposed project.
+155 [] Here for the Ngo Management System, I have worked on the preliminary investigation that accomplished the following objectives: -
+156 [] Clarify and understand the project request. Determine the size of the project.
+157 [] Assess costs and benefits of alternative approaches.
+158 [] Determine the technical and operational; feasibility of alternative approaches.
+159 [] Report the findings to management, with recommendation outlining the acceptances or rejection of the proposal.
+160 [] Considering above criteria I also keep in mind that the requirements are clearly understandable when the clarification of project request is enquired. The data of the Ngo Management System, which are collected by me during preliminary investigation, are through Reviewing organization Documents Onsite observation and
+161 [] Conducting interviews.
+162 [] FEASIBILITY STUDY
+163 [] Not everything imaginable is feasible, not even in software, even as it may appear to outsiders. Feasibility is the determination of whether or not a project is wrong doing. On the contrary, software feasibility has seven solid dimensions as below: -
+164 [Heading2] Technical feasibility.
+165 [Heading2] Operational feasibility.
+166 [Heading2] Economic feasibility.
+167 [ListParagraph] Social feasibility.
+168 [Heading2] Management feasibility.
+169 [ListParagraph] Legal feasibility.
+170 [Heading2] Time feasibility.
+171 [] The process followed in making this determination is called a feasibility study. The type of study determines if a project can and should be taken. Once it has been determined that a project is feasible, that analyst can go ahead and prepare the project specification which finalizes project requirements. Generally, feasibility studies are undertaken within tight time constraints and normally culminate in a written and oral feasibility report. The contents and recommendation of such a study will be used as a sound basis for deciding whether to proceed, postpone or cancel the project. Thus, since the feasibility study may lead to the commitment of large resources, it becomes
+172 [] necessary that it should be conducted competently and that no fundamental errors of judgment are made.
+173 [] In other words we can say that a feasibility study is conducted to select the best system that meets performance requirement. This contains and identification description, an evaluation of candidate system and the selection of best system for the job. The system required a statement of constraints; the identification of specific system objective and a description of outputs define performance.
+174 [BodyText] TECHNICAL FEASIBILITY: -TECHNICAL FEASIBILITY: -
+175 [] Technical feasibility is concerned with specifying equipment and software that will successfully satisfy the user requirements. My project is fit in technical feasibility because it requires neither too much heavy configuration system for its run nor in its development.
+176 [] Following hardware and software components are used in the development of proposed system.
+177 [] The same configuration system is also meets all the requirements to run or for implements to run or for implementation of the system. Though I have also tested this software for that systems whose configuration is lower than the above specified
+178 [BodyText] ECONOMICAL FEASIBILITY: -ECONOMICAL FEASIBILITY: -
+179 [] Economic analysis is the most frequently used technique for evaluation of the effectiveness of a proposed system. More commonly
+180 [] known as Cost/Benefit analysis, the procedure is to determine the benefits and saving that are expected from a proposed system and compare them with costs. If benefits outweigh costs, a decision is taken to design and implement the system. Other weight costs, a decision is taken to design and implement the system. Otherwise, further justification or alternative in the proposed system will have to be made if is to have a chance of being approved. This is an ongoing effort that improves in accuracy at each phase of the system life cycle.
+181 [] Before establishing Economical Feasibility so as to justify the expenses that different organization working under this category has to bear for this Software. It is crystal clear that the user or Customer of this Software has no need to invest heavy amount for this software. As my project has been written in such a language, which is a platform Independent. It has also the feature of WORM.   It means it possess the technology of Write Once & Read Many.
+182 [] There is no any heavy expense on the maintenance of this Software. Also there is no need to expense a heavy amount on the set of “Very Expert Personals” because it is very easy and user-friendly software. It is fully tighten protection of Secret Password and User Name for unauthorized access of this Software.
+183 [] For different types of Process or Operation, Reports or Query and Output also, there is no need of heavy expenditure.
+184 [BodyText] OPERATIONAL FEASIBILITY: -OPERATIONAL FEASIBILITY: -
+185 [] My project is also fit in Operational Feasibility Study. As I have explained before this about Technical Feasibility and Economical Feasibility, this Software is very easy and user-friendly.
+186 [] I have used a very easy menu system and also used some control buttons in the easy way by which one can choose the options on his desire.
+187 [] Though this is fully protected with the security by word (Password and user name), if both are matched only then one can get access of this software.
+188 [] Various Reports, Forms and Queries can be generated on the fingertips for the user.
+189 [] In nutshell we can say that it has following operational features:
+190 [ListParagraph] It is User-Friendly.
+191 [ListParagraph] It is having less paperwork.
+192 [ListParagraph] Efficient tractability.
+193 [ListParagraph] Query can be generated.
+194 [ListParagraph] Various Reports and Forms can be generated.
+195 [ListParagraph] Fully protected by Password and User name for unauthorized access.
+196 [Heading1] ANALYSIS
+197 [] System Analysis refers into the process of examining a situation with the intent of improving it through better procedures and methods. System Analysis is the process of planning a new System to either replace or complement an existing system.
+198 [Heading2] DFD
+199 [] The DFD is an excellent communication tool for analysts to model processes and functional requirements. Used effectively, it is a useful and easy to understand modeling tool. It has broad application
+200 [BodyText] View/DeleteDemandSTUDENTAdd/UpdateView/ PrintREPORTSTUDENT DETAILSSTUDENT REGISTRATIONFEE DETAILOPERATOR OF SCHOOLENQURY DETAILView/DeleteDemandSTUDENTAdd/UpdateView/ PrintREPORTSTUDENT DETAILSSTUDENT REGISTRATIONFEE DETAILOPERATOR OF SCHOOLENQURY DETAIL
+201 [] OPERATOROPERATORSTUDENTSTUDENTREGISTRATION
+202 [] GENERATE
+203 [Heading2] REPORTREPORTDFD 2: MAINTAIN STUDENT RECORD
+204 [BodyText] FEEView & PrintPAYMENT MODEADDMITION CHARGEOTHER CHARGETUTION CHARGEREGISTRATION CHARGELIBRARY CHARGEACCOUNTANTFEEView & PrintPAYMENT MODEADDMITION CHARGEOTHER CHARGETUTION CHARGEREGISTRATION CHARGELIBRARY CHARGEACCOUNTANT
+205 [] REGISTRATIONGENERATE
+206 [Heading2] REPORTREPORTOPERATOROPERATORSTUDENTSTUDENTDFD 3: MAINTAIN FEE RECORD
+207 [BodyText] VView/Delete/SearchEnterDemandUpdateEMPLOUYpEdEateView & PrintEMPLOYEE DETAILDESIGNATIONOPERATOR OF SCHOOLVView/Delete/SearchEnterDemandUpdateEMPLOUYpEdEateView & PrintEMPLOYEE DETAILDESIGNATIONOPERATOR OF SCHOOL
+208 [BodyText] REGISTRATIONGENERATEREPORTOPERATORSTAFFREGISTRATIONGENERATEREPORTOPERATORSTAFF
+209 [] DFD 4:  MAINTAIN EMPLOYEE RECORD
+210 [Heading1] MODULE DESCRIPTION
+211 [] These are the following Modules in the project:-
+212 [ListParagraph] STUDENT :- This module is used for the information about the students through which it can be considered for particular student information as roll_no, address, course, admission status etc. In this module admission, student record updation , deletion etc happen.
+213 [ListParagraph] STAFF/EMPLOYEE :- This module consists, the information about employees (working members) in the college for their different posts as faculties, coordinator, peon and other teaching & non-teaching staffs.
+214 [ListParagraph] FEE : - This module maintains the information of student’s
+215 [] admission fee , monthly fee and different type of fee Dues etc.
+216 [ListParagraph] SETTING :- It is necessary to maintain the security level by implementing the concept of user authentication checking. The security module deals with user authentication and security measures. In which the user login id and password is used to secure & maintain the protection feature.
+217 [ListParagraph] REPORT :-This module is used to view or print different type of Report like admission details, fee details etc.
+218 [Heading1] DATA STRUCTURE SNAP SHOT
+219 [] DATA DICTIONERY:- The data dictionary stores description of data items and structures, as well as systems processes. Data dictionary used for database design in this project is mentioned. Care was taken during the database design for future expansion of school’s need.
+220 [] User_ Details (Login)
+221 [Heading1] Student Details (student_add):
+222 [Heading2] Staff Details (Staff_add):-
+223 [] Fee Structure (fees):
+224 [] Admission fees (addfees):
+225 [Heading1] Monthly fees(transaction):-
+226 [Heading1] LIST OF REPORTS
+227 [] The following reports will be generated:-
+228 [ListParagraph] Registration: - This report contains the information of all registered students of the school.
+229 [ListParagraph] Fee: - In this report, the fee details will be displayed.
+230 [Heading1] SCOPE AND FUTURE ENHANCEMENT
+231 [] There is always a scope of betterment and the candidate system is not against perception. The project uses very nearly the same calculations as School does; if clients want any other type of changes it can also be done because the project is upgradeable.
+232 [] The project can be used as a sub-project for any other projects. The main future scope is as follows:-
+233 [] 🞛 To Store the large amount of data for future point of view.
+234 [] 🞛Reducing manual efforts for maintain the system.
+235 [] 🞛 Reducing the lead time.
+236 [] 🞛It gives correct information about Student details, Staff details, Fee etc.
+237 [] IMPLEMENTATION METHODOLOGY
+238 [] Implementation of a tested system is done on the actual location with the actual hardware, Software and manpower platforms or
+239 [] limitation. To implement of this software, the followings are the necessary:
+240 [] This project run on internet or intranet , so I have to selected internet supportive software. For implementing this software a web- server is required . I have to install IIS(internet information service). Know this project is web-based so it will need a web-browser which will act as its interface, so for this project install a web-browser capable of providing proper interface to this project such as internet Explorer/mozilla Firefox/opera e.t.c and many other browser.and for back-end operation ,I have to install ORACLE 9i which handle all the work related to database query and updation as required by the sostware. In future also use better databases.we know that this project will be developed on heavy platform ASPJAVA with c# , so there is requirement of advance processer and proper RAM and other advance Hardware configuration.
+241 [ListParagraph] Create separate user for this application: A user named as “admin” with the password “pass” is to be created for storing the data in a separate place. Storing data under separate user will protect the data. Oracle Navigator can be used for creating the said username and password.
+242 [ListParagraph] Create required tables: The structure of tables required for this project (Detail given in the data base design section) is to be created in the said user. The SQL statement CREATE can be used for creating such tables.
+243 [ListParagraph] Create Distributable set of files: An installation package of the software is to be built for implementation of the project at desired location.
+244 [Heading1] TESTING
+245 [Heading2] Software testing consists of the following stages.
+246 [ListParagraph] TEST PLAN DEVELOPMENT:-
+247 [] The importance of software testing and its implications need not be emphasized. Software testing is a critical element of software quality assurance and represents the ultimate review of specifications, design and coding. The main objective of testing is to uncover a host of errors, systematically, with minimum effort and time. It improves the reliability of the software.
+248 [Heading2] TESTING STRATEGY:-
+249 [] A testing strategy explains how to conduct a test to uncover all the errors with minimum possible time and effort. It should be flexible enough to promote customization that may be necessary in due course of development process.
+250 [Heading2] UNIT TESTING:-
+251 [] Unit testing focuses verification effort on the smallest unit of software module using the detailed design criteria. Process specifications testing are done to uncover errors within the boundaries of the module. All
+252 [] modules must be successful in the unit test before start of the integration testing. The software developed for e-banking is tested module wise by giving normal values and extreme values as input. All the bugs have been identified and removed. The software designed is tested module wise. Before using the software, an employee has to give organization name and password.
+253 [] In the next stage he has to provide division name, employee ID and password. If any of this information is wrong, the system gives an error message- “invalid user and password”
+254 [Heading2] INTEGRATION TESTING:-
+255 [] It is a systematic technique for constructing different program module in to an integrated software structure. This test uncovers the errors during integration process. The integration aspect is tested after integrating all the modules and validated.
+256 [Heading2] VALIDATION TESTING:-
+257 [] After the culmination of integration testing the software is ready as per the specification. But it has to be validated as per the specification and to uncover the unexpected future errors and to improve its reliability. The random value and boundary values as input is fed to the software developed and studied the software performance and validated
+258 [Heading2] TEST CASE DESIGN
+259 [] The techniques that are used in deriving the test cases are explained below.
+260 [Heading2] CONDITION TESTING:-
+261 [] Condition testing is a test case design method that exercises the logical conditions contained in the program. The possible components in a condition statement are a Boolean operator, Boolean variable, relational operator, arithmetic expression and parenthesis.
+262 [Heading2] BOUNDARY VALUE ANALYSIS:-
+263 [] Boundary value analysis leads to the selection of test cases that exercise the boundary conditions or boundary values. It is observed that a large number of errors tend to appear at the boundaries of the input domain than in the center.The boundary condition is tested by inserting values beyond specification/availability of project allocations. E.g.the software is tested by giving more amount of money in the indent form than available in the budget. Under this conciliation the software gives an error message stating that insufficient fund.
+264 [Heading2] EQUIVALENCE PARTITIONING:-
+265 [] Equivalence portioning is a black box testing method that divides the input domain of a program into classes of data from which
+266 [] test cases can be derived. A typical test uncovers a class errors might otherwise require many more test cases before the error is observed. Equivalence classes for input determine the valid and invalid inputs for the program
+267 [Heading1] LIMITATIONSANDFURTHER ENHANCEMENTS
+268 [Heading2] LIMITATIONS:
+269 [] Despite tremendous growth potentialities continues with a series of challenges and contradictions in its implementations. The main shortcomings are mentioned below.
+270 [ListParagraph] Easy transaction of money.
+271 [ListParagraph] Reliability of electronic payment system.
+272 [ListParagraph] Accounting, legal, taxation and security issues etc.
+273 [Heading2] RECOMMENDED AREAS FOR FURTHER RESEARCH
+274 [] Considering the fact that has already gone ahead the following areas needs to be further probed for improving the system to meet the changing scenario.
+275 [ListParagraph] There is a lot of scope for future research in the areas like automatic component/material planning, automatic advanced
+276 [] indenting, micro transactions, and customer relationship management.
+277 [ListParagraph] Components like electronic payment system, digital certificates, electronic tokens, electronic cheques etc. are still in an embryonic stage of development. This area opens up a lot of scope for further research.
+278 [] In the absence of universal standards for electronic transactions, the organization should develop a standard internal to it and that translate between its formats and those supported by its trading partners. This approach reduces dependence on industry schedules for adopting standards, and avoids the pitfalls of an organization-imposed solution.
+279 [Heading1] SECURITY MECHANISM
+280 [] Implementation of security is a key issue in any software development different application use different kind of security mechanism according to their need.In Ngo Management Systemthe implementation of security has been confined up to the user level. The “Ngo Management System” authenticates a user by its username and
+281 [] password to a user. A user is able to work on the software if s/he is an authorized user with user id and password.
+282 [] It is the system administrator who is responsible for granting permission to any user. He can grant as well as revoke permissions from any user.Another important security level is data level. In the data level security defined validation and constraints in the database. Due to this only valid data can be entered in the tables.
+283 [] All information and management forms are stored within the system, and access to this sensitive information is controlled through an effective authentication system: one has to know the USER ID, and PASSWORD to gain access to any of the information.
+284 [] The management (administrator) can create new user, while a normal user can’t do this. This system will provide the facility to change the password according to the user need. For security measure the ‘Password’ field will be taken as ‘Varchar2’ data type, so that a user can use in this field both integer and alphabets.
+285 [Heading1] SNAPSHOTS
+286 [] LOGIN FORM (login.java)
+287 [BodyText] code for login page :-
+288 [BodyText] import javax.swing.JOptionPane; import java.sql.*;
+289 [BodyText] public class login extends javax.swing.JFrame {
+290 [BodyText] //ResultSet rs;
+291 [BodyText] /**
+292 [BodyText] * Creates new form login
+293 [BodyText] */
+294 [BodyText] public login() { initComponents();
+295 [BodyText] }
+296 [BodyText] /**
+297 [ListParagraph] This method is called from within the constructor to initialize the form.
+298 [ListParagraph] WARNING: Do NOT modify this code. The content of this method is always
+299 [ListParagraph] regenerated by the Form Editor.
+300 [BodyText] */ @SuppressWarnings("unchecked")
+301 [BodyText] // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-
+302 [BodyText] BEGIN:initComponents
+303 [BodyText] private void initComponents() {
+304 [BodyText] jPanel1 = new javax.swing.JPanel(); jLabel1 = new javax.swing.JLabel(); jLabel2 = new javax.swing.JLabel(); txtuser = new javax.swing.JTextField(); jLabel3 = new javax.swing.JLabel();
+305 [BodyText] txtpass = new javax.swing.JPasswordField(); login = new javax.swing.JButton();
+306 [BodyText] jLabel4 = new javax.swing.JLabel(); jLabel5 = new javax.swing.JLabel(); jLabel6 = new javax.swing.JLabel(); jLabel8 = new javax.swing.JLabel(); jLabel7 = new javax.swing.JLabel();
+307 [BodyText] setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+308 [BodyText] jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(204, 204, 204), new java.awt.Color(204, 204, 204)));
+309 [BodyText] jLabel1.setBackground(new java.awt.Color(0, 204, 102)); jLabel1.setFont(new java.awt.Font("Viner Hand ITC", 1, 14)); // NOI18N
+310 [BodyText] jLabel1.setForeground(new java.awt.Color(102, 102, 102)); jLabel1.setText("LOGIN - Panel");
+311 [BodyText] jLabel2.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N jLabel2.setText("USER ID :");
+312 [BodyText] txtuser.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+313 [BodyText] jLabel3.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N jLabel3.setText("PASSWORD :");
+314 [BodyText] login.setBackground(javax.swing.UIManager.getDefaults().getColor("Button.darkShadow"
+315 [BodyText] ));
+316 [BodyText] login.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N login.setText("Submit");
+317 [BodyText] login.addActionListener(new java.awt.event.ActionListener() { public void actionPerformed(java.awt.event.ActionEvent evt) {
+318 [BodyText] loginActionPerformed(evt);
+319 [BodyText] }
+320 [BodyText] });
+321 [BodyText] javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1); jPanel1.setLayout(jPanel1Layout);
+322 [BodyText] jPanel1Layout.setHorizontalGroup( jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+323 [BodyText] .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+324 [BodyText] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignmen t.TRAILING)
+325 [BodyText] .addGroup(jPanel1Layout.createSequentialGroup()
+326 [BodyText] .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+327 [BodyText] .addComponent(login, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE))
+328 [BodyText] .addGroup(jPanel1Layout.createSequentialGroup()
+329 [BodyText] .addGap(53, 53, 53)
+330 [BodyText] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Align ment.TRAILING)
+331 [BodyText] .addComponent(jLabel3)
+332 [BodyText] .addComponent(jLabel2))
+333 [BodyText] .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 21, Short.MAX_VALUE)
+334 [BodyText] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Align ment.LEADING)
+335 [BodyText] .addComponent(txtuser, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+336 [BodyText] .addComponent(txtpass, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))))
+337 [BodyText] .addGap(62, 62, 62))
+338 [BodyText] .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+339 [BodyText] .addGap(0, 0, Short.MAX_VALUE)
+340 [BodyText] .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE)
+341 [BodyText] .addGap(101, 101, 101))
+342 [BodyText] );
+343 [BodyText] jPanel1Layout.setVerticalGroup(
+344 [BodyText] jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+345 [BodyText] .addGroup(jPanel1Layout.createSequentialGroup()
+346 [BodyText] .addComponent(jLabel1)
+347 [BodyText] .addGap(38, 38, 38)
+348 [BodyText] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignmen t.BASELINE)
+349 [BodyText] .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+350 [BodyText] .addComponent(txtuser, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+351 [BodyText] .addGap(36, 36, 36)
+352 [BodyText] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignmen t.BASELINE)
+353 [BodyText] .addComponent(jLabel3)
+354 [BodyText] .addComponent(txtpass, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+355 [BodyText] .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 33, Short.MAX_VALUE)
+356 [BodyText] .addComponent(login)
+357 [BodyText] .addGap(19, 19, 19))
+358 [BodyText] );
+359 [BodyText] jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/child.jpg"))); // NOI18N
+360 [BodyText] jLabel5.setFont(new java.awt.Font("Baskerville Old Face", 1, 18)); // NOI18N jLabel5.setForeground(new java.awt.Color(153, 0, 0));
+361 [BodyText] jLabel5.setText("JAWAHAR NAVODAYA VIDYALA - School Management Software");
+362 [BodyText] jLabel6.setFont(new java.awt.Font("Trebuchet MS", 1, 14)); // NOI18N
+363 [BodyText] jLabel6.setText("Is created by Sandip Kumar & Bhaskar kumar,Neha kumari,Puja Bharti.");
+364 [BodyText] jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/login.jpg"))); // NOI18N
+365 [BodyText] jLabel7.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N jLabel7.setText(" Guided by Mr. Neeraj Kumar Singh");
+366 [BodyText] javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane()); getContentPane().setLayout(layout);
+367 [BodyText] layout.setHorizontalGroup( layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+368 [BodyText] .addGroup(layout.createSequentialGroup()
+369 [BodyText] .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+370 [BodyText] .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAIL
+371 [BodyText] ING)
+372 [BodyText] .addGroup(layout.createSequentialGroup()
+373 [BodyText] .addGap(31, 31, 31)
+374 [BodyText] .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.L
+375 [BodyText] EADING)
+376 [BodyText] .addComponent(jLabel5)
+377 [BodyText] .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.
+378 [BodyText] TRAILING)
+379 [BodyText] .addComponent(jLabel7)
+380 [BodyText] .addComponent(jLabel6)))
+381 [BodyText] .addGap(114, 114, 114))
+382 [BodyText] .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+383 [BodyText] .addGap(62, 62, 62)
+384 [BodyText] .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+385 [BodyText] .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+386 [BodyText] .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
+387 [BodyText] .addContainerGap())))
+388 [BodyText] );
+389 [BodyText] layout.setVerticalGroup( layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+390 [BodyText] .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+391 [BodyText] .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+392 [BodyText] .addGap(43, 43, 43)
+393 [BodyText] .addComponent(jLabel5)
+394 [BodyText] .addGap(18, 18, 18)
+395 [BodyText] .addComponent(jLabel6)
+396 [BodyText] .addGap(18, 18, 18)
+397 [BodyText] .addComponent(jLabel7)
+398 [BodyText] .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+399 [BodyText] .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAIL
+400 [BodyText] ING)
+401 [BodyText] .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+402 [BodyText] .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 227, javax.swing.GroupLayout.PREFERRED_SIZE))
+403 [BodyText] .addGap(137, 137, 137))
+404 [BodyText] );
+405 [BodyText] pack();
+406 [BodyText] }// </editor-fold>//GEN-END:initComponents
+407 [BodyText] private void loginActionPerformed(java.awt.event.ActionEvent evt) {//GEN- FIRST:event_loginActionPerformed
+408 [BodyText] Statement st;
+409 [BodyText] Connection cn;
+410 [BodyText] ResultSet rs;
+411 [BodyText] String user,pass,name;
+412 [BodyText] user=txtuser.getText().toLowerCase(); pass=txtpass.getText();
+413 [BodyText] try
+414 [BodyText] {
+415 [BodyText] Class.forName("com.mysql.jdbc.Driver");
+416 [BodyText] cn=DriverManager.getConnection("jdbc:mysql://localhost:3306/school","root","bhaskar"); st=cn.createStatement();
+417 [BodyText] String sql="Select* from login where user='"+user+"' and password='"+pass+"'"; rs=st.executeQuery(sql);
+418 [BodyText] if(rs.next())
+419 [BodyText] {
+420 [BodyText] JOptionPane.showMessageDialog(rootPane,"Login Successful"); name=rs.getString("name");
+421 [BodyText] if(user.equals("admin"))
+422 [BodyText] {
+423 [BodyText] new main_admin().show(); this.dispose();
+424 [BodyText] }
+425 [BodyText] else
+426 [BodyText] {
+427 [BodyText] main_user obj= new main_user(); obj.hello.setText("WELCOME "+name); obj.setVisible(true);
+428 [BodyText] this.dispose();
+429 [BodyText] }
+430 [BodyText] }
+431 [BodyText] else
+432 [BodyText] {
+433 [BodyText] sql="Select* from login where user='"+user+"'";
+434 [BodyText] rs=st.executeQuery(sql); if(rs.next())
+435 [BodyText] {
+436 [BodyText] JOptionPane.showMessageDialog(rootPane,"password is wrong");
+437 [BodyText] }
+438 [BodyText] else
+439 [BodyText] {
+440 [BodyText] JOptionPane.showMessageDialog(rootPane,"User is wrong");
+441 [BodyText] }
+442 [BodyText] // JOptionPane.showMessageDialog(null, "Invalid Login"); txtpass.setText(null);
+443 [BodyText] }
+444 [BodyText] }
+445 [BodyText] catch(Exception e)
+446 [BodyText] {
+447 [BodyText] JOptionPane.showMessageDialog(null, e.getMessage());
+448 [BodyText] }
+449 [BodyText] // TODO add your handling code here:
+450 [BodyText] }//GEN-LAST:event_loginActionPerformed
+451 [BodyText] /**
+452 [ListParagraph] @param args the command line arguments
+453 [BodyText] */
+454 [BodyText] public static void main(String args[]) {
+455 [BodyText] /* Set the Nimbus look and feel */
+456 [BodyText] //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
+457 [BodyText] /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
+458 [BodyText] * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html
+459 [BodyText] */ try {
+460 [BodyText] for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+461 [BodyText] if ("Nimbus".equals(info.getName())) { javax.swing.UIManager.setLookAndFeel(info.getClassName()); break;
+462 [BodyText] }
+463 [BodyText] }
+464 [BodyText] } catch (ClassNotFoundException ex) {
+465 [BodyText] java.util.logging.Logger.getLogger(login.class.getName()).log(java.util.logging.Level.SEVE RE, null, ex);
+466 [BodyText] } catch (InstantiationException ex) {
+467 [BodyText] java.util.logging.Logger.getLogger(login.class.getName()).log(java.util.logging.Level.SEVE RE, null, ex);
+468 [BodyText] } catch (IllegalAccessException ex) {
+469 [BodyText] java.util.logging.Logger.getLogger(login.class.getName()).log(java.util.logging.Level.SEVE RE, null, ex);
+470 [BodyText] } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+471 [BodyText] java.util.logging.Logger.getLogger(login.class.getName()).log(java.util.logging.Level.SEVE RE, null, ex);
+472 [BodyText] }
+473 [BodyText] //</editor-fold>
+474 [BodyText] /* Create and display the form */ java.awt.EventQueue.invokeLater(new Runnable() {
+475 [BodyText] public void run() {
+476 [BodyText] new login().setVisible(true);
+477 [BodyText] }
+478 [BodyText] });
+479 [BodyText] }
+480 [BodyText] // Variables declaration - do not modify//GEN-BEGIN:variables private javax.swing.JLabel jLabel1;
+481 [BodyText] private javax.swing.JLabel jLabel2; private javax.swing.JLabel jLabel3; private javax.swing.JLabel jLabel4; private javax.swing.JLabel jLabel5; private javax.swing.JLabel jLabel6; private javax.swing.JLabel jLabel7; private javax.swing.JLabel jLabel8; private javax.swing.JPanel jPanel1; private javax.swing.JButton login;
+482 [BodyText] private javax.swing.JPasswordField txtpass; private javax.swing.JTextField txtuser;
+483 [BodyText] // End of variables declaration//GEN-END:variables
+484 [BodyText] }
+485 [BodyText] MAIN FORM (main_admin.java) for admin :
+486 [BodyText] code :
+487 [BodyText] import javax.swing.JOptionPane;
+488 [BodyText] /*
+489 [ListParagraph] To change this template, choose Tools | Templates
+490 [ListParagraph] and open the template in the editor.
+491 [BodyText] */
+492 [BodyText] /**
+493 [BodyText] *
+494 [ListParagraph] @author sand
+495 [BodyText] */
+496 [BodyText] public class home extends javax.swing.JFrame {
+497 [BodyText] /**
+498 [ListParagraph] Creates new form home
+499 [BodyText] */
+500 [BodyText] public home() { initComponents();
+501 [BodyText] }
+502 [BodyText] /**
+503 [ListParagraph] This method is called from within the constructor to initialize the form.
+504 [ListParagraph] WARNING: Do NOT modify this code. The content of this method is always
+505 [ListParagraph] regenerated by the Form Editor.
+506 [BodyText] */ @SuppressWarnings("unchecked")
+507 [BodyText] // <editor-fold defaultstate="collapsed" desc="Generated Code"> private void initComponents() {
+508 [BodyText] jPanel2 = new javax.swing.JPanel(); jPanel1 = new javax.swing.JPanel(); jLabel1 = new javax.swing.JLabel(); jLabel2 = new javax.swing.JLabel(); jLabel4 = new javax.swing.JLabel(); jLabel3 = new javax.swing.JLabel(); jLabel5 = new javax.swing.JLabel(); jLabel6 = new javax.swing.JLabel(); jLabel7 = new javax.swing.JLabel(); jLabel8 = new javax.swing.JLabel(); jLabel9 = new javax.swing.JLabel(); jLabel10 = new javax.swing.JLabel(); jLabel11 = new javax.swing.JLabel(); jMenuBar1 = new javax.swing.JMenuBar(); jMenu1 = new javax.swing.JMenu();
+509 [BodyText] jMenuItem1 = new javax.swing.JMenuItem(); jMenuItem5 = new javax.swing.JMenuItem(); jMenuItem24 = new javax.swing.JMenuItem(); jMenuItem26 = new javax.swing.JMenuItem(); jMenuItem4 = new javax.swing.JMenuItem(); jMenu2 = new javax.swing.JMenu(); jMenuItem6 = new javax.swing.JMenuItem(); jMenuItem7 = new javax.swing.JMenuItem(); jMenuItem8 = new javax.swing.JMenuItem(); jMenuItem27 = new javax.swing.JMenuItem(); jMenu4 = new javax.swing.JMenu(); jMenuItem12 = new javax.swing.JMenuItem(); jMenuItem21 = new javax.swing.JMenuItem();
+510 [BodyText] jMenuItem22 = new javax.swing.JMenuItem(); jMenuItem23 = new javax.swing.JMenuItem(); jMenu7 = new javax.swing.JMenu(); jMenuItem28 = new javax.swing.JMenuItem(); jMenuItem29 = new javax.swing.JMenuItem(); jMenu5 = new javax.swing.JMenu(); jMenuItem9 = new javax.swing.JMenuItem(); jMenuItem10 = new javax.swing.JMenuItem(); jMenuItem11 = new javax.swing.JMenuItem(); jMenuItem15 = new javax.swing.JMenuItem(); jMenuItem14 = new javax.swing.JMenuItem(); jMenuItem13 = new javax.swing.JMenuItem(); jMenu6 = new javax.swing.JMenu(); jMenuItem19 = new javax.swing.JMenuItem(); jMenuItem20 = new javax.swing.JMenuItem(); jMenuItem25 = new javax.swing.JMenuItem();
+511 [BodyText] setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+512 [BodyText] javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2); jPanel2.setLayout(jPanel2Layout);
+513 [BodyText] jPanel2Layout.setHorizontalGroup( jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+514 [BodyText] .addGap(0, 400, Short.MAX_VALUE)
+515 [BodyText] );
+516 [BodyText] jPanel2Layout.setVerticalGroup( jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+517 [BodyText] .addGap(0, 0, Short.MAX_VALUE)
+518 [BodyText] );
+519 [BodyText] jPanel1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+520 [BodyText] jLabel1.setFont(new java.awt.Font("Trebuchet MS", 1, 14)); // NOI18N jLabel1.setForeground(new java.awt.Color(153, 0, 0)); jLabel1.setText("Welcome to Administration Panel");
+521 [BodyText] jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/admission.png"))); // NOI18N
+522 [BodyText] jLabel2.setText("jLabel2");
+523 [BodyText] jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/human.png"))); // NOI18N
+524 [BodyText] jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/library.png"))); // NOI18N
+525 [BodyText] jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/setting.png"))); // NOI18N
+526 [BodyText] jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/studentde.png"))); // NOI18N
+527 [BodyText] jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/fees.png"))); // NOI18N
+528 [BodyText] jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jawaher.jpg")));
+529 [BodyText] // NOI18N
+530 [BodyText] jLabel9.setFont(new java.awt.Font("Baskerville Old Face", 1, 24)); // NOI18N jLabel9.setForeground(new java.awt.Color(0, 102, 102));
+531 [BodyText] jLabel9.setText("JAWAHAR NAVODAYA VIDYALAYA - School Management Software");
+532 [BodyText] jLabel10.setForeground(new java.awt.Color(0, 102, 102)); jLabel10.setText("CREATED BY :");
+533 [BodyText] jLabel11.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N jLabel11.setForeground(new java.awt.Color(0, 102, 102)); jLabel11.setText("Sandip jayaswal ");
+534 [BodyText] javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1); jPanel1.setLayout(jPanel1Layout);
+535 [BodyText] jPanel1Layout.setHorizontalGroup( jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+536 [BodyText] .addGroup(jPanel1Layout.createSequentialGroup()
+537 [BodyText] .addGap(44, 44, 44)
+538 [BodyText] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignmen t.LEADING)
+539 [BodyText] .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 106, javax.swing.GroupLayout.PREFERRED_SIZE)
+540 [BodyText] .addComponent(jLabel5))
+541 [BodyText] .addGap(36, 36, 36)
+542 [BodyText] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignmen t.TRAILING)
+543 [BodyText] .addComponent(jLabel6)
+544 [BodyText] .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
+545 [BodyText] .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+546 [BodyText] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignmen t.LEADING)
+547 [BodyText] .addComponent(jLabel7, javax.swing.GroupLayout.Alignment.TRAILING)
+548 [BodyText] .addComponent(jLabel3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE))
+549 [BodyText] .addGap(51, 51, 51)
+550 [BodyText] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignmen t.LEADING)
+551 [BodyText] .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 819, javax.swing.GroupLayout.PREFERRED_SIZE)
+552 [BodyText] .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 810, javax.swing.GroupLayout.PREFERRED_SIZE))
+553 [BodyText] .addContainerGap())
+554 [BodyText] .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+555 [BodyText] .addGap(132, 132, 132)
+556 [BodyText] .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 234, javax.swing.GroupLayout.PREFERRED_SIZE)
+557 [BodyText] .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+558 [BodyText] .addComponent(jLabel10)
+559 [BodyText] .addGap(18, 18, 18)
+560 [BodyText] .addComponent(jLabel11)
+561 [BodyText] .addGap(103, 103, 103))
+562 [BodyText] );
+563 [BodyText] jPanel1Layout.setVerticalGroup( jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+564 [BodyText] .addGroup(jPanel1Layout.createSequentialGroup()
+565 [BodyText] .addGap(28, 28, 28)
+566 [BodyText] .addComponent(jLabel9)
+567 [BodyText] .addGap(18, 18, 18)
+568 [BodyText] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignmen t.BASELINE)
+569 [BodyText] .addComponent(jLabel10)
+570 [BodyText] .addComponent(jLabel11)
+571 [BodyText] .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
+572 [BodyText] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignmen t.LEADING)
+573 [BodyText] .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+574 [BodyText] .addGap(0, 0, Short.MAX_VALUE)
+575 [BodyText] .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 292, javax.swing.GroupLayout.PREFERRED_SIZE))
+576 [BodyText] .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+577 [BodyText] .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 60, Short.MAX_VALUE)
+578 [BodyText] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Align ment.TRAILING)
+579 [BodyText] .addComponent(jLabel4)
+580 [BodyText] .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE))
+581 [BodyText] .addGap(82, 82, 82)
+582 [BodyText] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Align ment.LEADING)
+583 [BodyText] .addComponent(jLabel7, javax.swing.GroupLayout.Alignment.TRAILING)
+584 [BodyText] .addComponent(jLabel6, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE))
+585 [BodyText] .addGap(25, 25, 25))
+586 [BodyText] .addGroup(jPanel1Layout.createSequentialGroup()
+587 [BodyText] .addGap(52, 52, 52)
+588 [BodyText] .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)
+589 [BodyText] .addGap(70, 70, 70)
+590 [BodyText] .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)
+591 [BodyText] .addContainerGap())))
+592 [BodyText] );
+593 [BodyText] jMenu1.setText("Student");
+594 [BodyText] jMenuItem1.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent. VK_A, java.awt.event.InputEvent.CTRL_MASK));
+595 [BodyText] jMenuItem1.setText("Admission"); jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
+596 [BodyText] public void actionPerformed(java.awt.event.ActionEvent evt) { jMenuItem1ActionPerformed(evt);
+597 [BodyText] }
+598 [BodyText] });
+599 [BodyText] jMenu1.add(jMenuItem1);
+600 [BodyText] jMenuItem5.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent. VK_D, java.awt.event.InputEvent.CTRL_MASK));
+601 [BodyText] jMenuItem5.setText("Student Details"); jMenuItem5.addActionListener(new java.awt.event.ActionListener() {
+602 [BodyText] public void actionPerformed(java.awt.event.ActionEvent evt) { jMenuItem5ActionPerformed(evt);
+603 [BodyText] }
+604 [BodyText] });
+605 [BodyText] jMenu1.add(jMenuItem5);
+606 [BodyText] jMenuItem24.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent
+607 [BodyText] .VK_U, java.awt.event.InputEvent.ALT_MASK | java.awt.event.InputEvent.CTRL_MASK)); jMenuItem24.setText("Update Student profile"); jMenuItem24.addActionListener(new java.awt.event.ActionListener() {
+608 [BodyText] public void actionPerformed(java.awt.event.ActionEvent evt) { jMenuItem24ActionPerformed(evt);
+609 [BodyText] }
+610 [BodyText] });
+611 [BodyText] jMenu1.add(jMenuItem24);
+612 [BodyText] jMenuItem26.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent
+613 [BodyText] .VK_D, java.awt.event.InputEvent.ALT_MASK | java.awt.event.InputEvent.CTRL_MASK)); jMenuItem26.setText("Delete Student Profile"); jMenuItem26.addActionListener(new java.awt.event.ActionListener() {
+614 [BodyText] public void actionPerformed(java.awt.event.ActionEvent evt) { jMenuItem26ActionPerformed(evt);
+615 [BodyText] }
+616 [BodyText] });
+617 [BodyText] jMenu1.add(jMenuItem26);
+618 [BodyText] jMenuItem4.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent. VK_E, java.awt.event.InputEvent.CTRL_MASK));
+619 [BodyText] jMenuItem4.setText("Exit");
+620 [BodyText] jMenuItem4.addActionListener(new java.awt.event.ActionListener() { public void actionPerformed(java.awt.event.ActionEvent evt) {
+621 [BodyText] jMenuItem4ActionPerformed(evt);
+622 [BodyText] }
+623 [BodyText] });
+624 [BodyText] jMenu1.add(jMenuItem4); jMenuBar1.add(jMenu1); jMenu2.setText("Teacher");
+625 [BodyText] jMenuItem6.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent. VK_M, java.awt.event.InputEvent.CTRL_MASK));
+626 [BodyText] jMenuItem6.setText("Create faculty member");
+627 [BodyText] jMenuItem6.addActionListener(new java.awt.event.ActionListener() { public void actionPerformed(java.awt.event.ActionEvent evt) {
+628 [BodyText] jMenuItem6ActionPerformed(evt);
+629 [BodyText] }
+630 [BodyText] });
+631 [BodyText] jMenu2.add(jMenuItem6);
+632 [BodyText] jMenuItem7.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent. VK_F, java.awt.event.InputEvent.CTRL_MASK));
+633 [BodyText] jMenuItem7.setText("View Faculty Information"); jMenuItem7.addActionListener(new java.awt.event.ActionListener() {
+634 [BodyText] public void actionPerformed(java.awt.event.ActionEvent evt) { jMenuItem7ActionPerformed(evt);
+635 [BodyText] }
+636 [BodyText] });
+637 [BodyText] jMenu2.add(jMenuItem7);
+638 [BodyText] jMenuItem8.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent. VK_I, java.awt.event.InputEvent.CTRL_MASK));
+639 [BodyText] jMenuItem8.setText("Update Faculty Information"); jMenuItem8.addActionListener(new java.awt.event.ActionListener() {
+640 [BodyText] public void actionPerformed(java.awt.event.ActionEvent evt) { jMenuItem8ActionPerformed(evt);
+641 [BodyText] }
+642 [BodyText] });
+643 [BodyText] jMenu2.add(jMenuItem8);
+644 [BodyText] jMenuItem27.setText("Delete Teacher Profile"); jMenuItem27.addActionListener(new java.awt.event.ActionListener() {
+645 [BodyText] public void actionPerformed(java.awt.event.ActionEvent evt) { jMenuItem27ActionPerformed(evt);
+646 [BodyText] }
+647 [BodyText] });
+648 [BodyText] jMenu2.add(jMenuItem27); jMenuBar1.add(jMenu2); jMenu4.setText("Fee management");
+649 [BodyText] jMenuItem12.setText("Take student fees"); jMenuItem12.addActionListener(new java.awt.event.ActionListener() {
+650 [BodyText] public void actionPerformed(java.awt.event.ActionEvent evt) { jMenuItem12ActionPerformed(evt);
+651 [BodyText] }
+652 [BodyText] });
+653 [BodyText] jMenu4.add(jMenuItem12);
+654 [BodyText] jMenuItem21.setText("Add fee structure"); jMenuItem21.addActionListener(new java.awt.event.ActionListener() {
+655 [BodyText] public void actionPerformed(java.awt.event.ActionEvent evt) { jMenuItem21ActionPerformed(evt);
+656 [BodyText] }
+657 [BodyText] });
+658 [BodyText] jMenu4.add(jMenuItem21);
+659 [BodyText] jMenuItem22.setText("monthly fees"); jMenuItem22.addActionListener(new java.awt.event.ActionListener() {
+660 [BodyText] public void actionPerformed(java.awt.event.ActionEvent evt) { jMenuItem22ActionPerformed(evt);
+661 [BodyText] }
+662 [BodyText] });
+663 [BodyText] jMenu4.add(jMenuItem22);
+664 [BodyText] jMenuItem23.setText("Mail Monthly Fee Report"); jMenuItem23.addActionListener(new java.awt.event.ActionListener() {
+665 [BodyText] public void actionPerformed(java.awt.event.ActionEvent evt) { jMenuItem23ActionPerformed(evt);
+666 [BodyText] }
+667 [BodyText] });
+668 [BodyText] jMenu4.add(jMenuItem23);
+669 [BodyText] jMenu7.setText("Student Fee Report");
+670 [BodyText] jMenuItem28.setText("Monthly Report"); jMenu7.add(jMenuItem28);
+671 [BodyText] jMenuItem29.setText("Yearly Report"); jMenu7.add(jMenuItem29);
+672 [BodyText] jMenu4.add(jMenu7); jMenuBar1.add(jMenu4); jMenu5.setText("Setting");
+673 [BodyText] jMenuItem9.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent. VK_U, java.awt.event.InputEvent.CTRL_MASK));
+674 [BodyText] jMenuItem9.setText("Create User"); jMenuItem9.addActionListener(new java.awt.event.ActionListener() {
+675 [BodyText] public void actionPerformed(java.awt.event.ActionEvent evt) { jMenuItem9ActionPerformed(evt);
+676 [BodyText] }
+677 [BodyText] });
+678 [BodyText] jMenu5.add(jMenuItem9);
+679 [BodyText] jMenuItem10.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent
+680 [BodyText] .VK_U, java.awt.event.InputEvent.SHIFT_MASK)); jMenuItem10.setText("Modify User"); jMenuItem10.addActionListener(new java.awt.event.ActionListener() {
+681 [BodyText] public void actionPerformed(java.awt.event.ActionEvent evt) { jMenuItem10ActionPerformed(evt);
+682 [BodyText] }
+683 [BodyText] });
+684 [BodyText] jMenu5.add(jMenuItem10);
+685 [BodyText] jMenuItem11.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent. VK_D, java.awt.event.InputEvent.SHIFT_MASK));
+686 [BodyText] jMenuItem11.setText("Delete User"); jMenuItem11.addActionListener(new java.awt.event.ActionListener() {
+687 [BodyText] public void actionPerformed(java.awt.event.ActionEvent evt) { jMenuItem11ActionPerformed(evt);
+688 [BodyText] }
+689 [BodyText] });
+690 [BodyText] jMenu5.add(jMenuItem11);
+691 [BodyText] jMenuItem15.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent. VK_S, java.awt.event.InputEvent.CTRL_MASK));
+692 [BodyText] jMenuItem15.setText("Search User Information"); jMenuItem15.addActionListener(new java.awt.event.ActionListener() {
+693 [BodyText] public void actionPerformed(java.awt.event.ActionEvent evt) { jMenuItem15ActionPerformed(evt);
+694 [BodyText] }
+695 [BodyText] });
+696 [BodyText] jMenu5.add(jMenuItem15);
+697 [BodyText] jMenuItem14.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent. VK_B, java.awt.event.InputEvent.CTRL_MASK));
+698 [BodyText] jMenuItem14.setText("Backup database");
+699 [BodyText] jMenuItem14.addActionListener(new java.awt.event.ActionListener() { public void actionPerformed(java.awt.event.ActionEvent evt) {
+700 [BodyText] jMenuItem14ActionPerformed(evt);
+701 [BodyText] }
+702 [BodyText] });
+703 [BodyText] jMenu5.add(jMenuItem14);
+704 [BodyText] jMenuItem13.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent. VK_R, java.awt.event.InputEvent.CTRL_MASK));
+705 [BodyText] jMenuItem13.setText("Restore database"); jMenuItem13.addActionListener(new java.awt.event.ActionListener() {
+706 [BodyText] public void actionPerformed(java.awt.event.ActionEvent evt) { jMenuItem13ActionPerformed(evt);
+707 [BodyText] }
+708 [BodyText] });
+709 [BodyText] jMenu5.add(jMenuItem13); jMenu6.setText("Change Password");
+710 [BodyText] jMenuItem19.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent. VK_P, java.awt.event.InputEvent.CTRL_MASK));
+711 [BodyText] jMenuItem19.setText("User Password"); jMenuItem19.addActionListener(new java.awt.event.ActionListener() {
+712 [BodyText] public void actionPerformed(java.awt.event.ActionEvent evt) { jMenuItem19ActionPerformed(evt);
+713 [BodyText] }
+714 [BodyText] });
+715 [BodyText] jMenu6.add(jMenuItem19);
+716 [BodyText] jMenuItem20.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent
+717 [BodyText] .VK_P, java.awt.event.InputEvent.SHIFT_MASK | java.awt.event.InputEvent.CTRL_MASK)); jMenuItem20.setText("Admin password");
+718 [BodyText] jMenuItem20.addActionListener(new java.awt.event.ActionListener() { public void actionPerformed(java.awt.event.ActionEvent evt) {
+719 [BodyText] jMenuItem20ActionPerformed(evt);
+720 [BodyText] }
+721 [BodyText] });
+722 [BodyText] jMenu6.add(jMenuItem20); jMenu5.add(jMenu6);
+723 [BodyText] Student Admission form :
+724 [BodyText] code :
+725 [BodyText] Student Details form:
+726 [BodyText] Update Form :
+727 [BodyText] Delate student profile:
+728 [BodyText] Teacher Registration form:
+729 [BodyText] All Teacher information:
+730 [BodyText] Code:
+731 [BodyText] Update teacher Information :
+732 [BodyText] Insert Fees Structure : (add_fees_structure.java)
+733 [BodyText] Take Admission Fees(add_fees.java)
+734 [BodyText] Take Monthly Fees: (Monthly_fees.java)
+735 [] }
+736 [] Mail form(send_mail.java)
+737 [] Create User profile(user_add.java)
+738 [] Code:
+739 [] Update User Account(user_update.java)
+740 [] Code:
+741 [] import java.awt.image.BufferedImage; import java.io.File;
+742 [] import java.io.FileInputStream; import java.io.IOException; import java.io.InputStream; import java.sql.Connection; import java.sql.DriverManager;
+743 [] import java.sql.PreparedStatement; import java.sql.ResultSet;
+744 [] import java.sql.Statement; import java.text.DateFormat;
+745 [] import java.text.SimpleDateFormat; import java.util.Date;
+746 [] import javax.imageio.ImageIO; import javax.swing.ImageIcon; import javax.swing.JFileChooser; import javax.swing.JOptionPane;
+747 [] /*
+748 [ListParagraph] To change this template, choose Tools | Templates
+749 [ListParagraph] and open the template in the editor.
+750 [] */
+751 [] /**
+752 [] *
+753 [ListParagraph] @author sand
+754 [] */
+755 [] public class user_update extends javax.swing.JFrame {
+756 [] /**
+757 [ListParagraph] Creates new form user_add
+758 [] */
+759 [] String filename =""; public user_update() {
+760 [] initComponents();
+761 [] }
+762 [] /**
+763 [ListParagraph] This method is called from within the constructor to initialize the form.
+764 [ListParagraph] WARNING: Do NOT modify this code. The content of this method is always
+765 [ListParagraph] regenerated by the Form Editor.
+766 [] */ @SuppressWarnings("unchecked")
+767 [] // <editor-fold defaultstate="collapsed" desc="Generated Code"> private void initComponents() {
+768 [] buttonGroup1 = new javax.swing.ButtonGroup(); jPanel1 = new javax.swing.JPanel();
+769 [] jLabel2 = new javax.swing.JLabel(); jLabel3 = new javax.swing.JLabel(); jLabel4 = new javax.swing.JLabel(); jLabel6 = new javax.swing.JLabel(); jLabel7 = new javax.swing.JLabel(); jLabel8 = new javax.swing.JLabel(); jLabel9 = new javax.swing.JLabel(); jLabel11 = new javax.swing.JLabel(); lblpicture = new javax.swing.JLabel();
+770 [] txtmobileno = new javax.swing.JTextField(); txtlastname = new javax.swing.JTextField(); txtemailid = new javax.swing.JTextField(); accountdate = new javax.swing.JTextField(); txtpicname = new javax.swing.JTextField(); txtfirstname = new javax.swing.JTextField(); jScrollPane1 = new javax.swing.JScrollPane(); txtaddress = new javax.swing.JTextArea(); jLabel13 = new javax.swing.JLabel();
+771 [] lblacid = new javax.swing.JLabel(); jButton3 = new javax.swing.JButton();
+772 [] jLabel5 = new javax.swing.JLabel(); rmale = new javax.swing.JRadioButton();
+773 [] rfemale = new javax.swing.JRadioButton(); txtpassword = new javax.swing.JPasswordField();
+774 [] txtconformpassword = new javax.swing.JPasswordField(); jLabel1 = new javax.swing.JLabel();
+775 [] jButton1 = new javax.swing.JButton(); jButton2 = new javax.swing.JButton();
+776 [] setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE); setResizable(false);
+777 [] jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createC ompoundBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(51, 0, 204), new java.awt.Color(204, 204, 204)), null), "Update User Information :", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Trebuchet MS", 1, 12),
+778 [] new java.awt.Color(153, 0, 0))); // NOI18N
+779 [] jLabel2.setFont(new java.awt.Font("Palatino Linotype", 0, 14)); // NOI18N jLabel2.setText("First Name :");
+780 [] jLabel3.setFont(new java.awt.Font("Palatino Linotype", 0, 14)); // NOI18N jLabel3.setText("Mobile No  :");
+781 [] jLabel4.setFont(new java.awt.Font("Palatino Linotype", 0, 14)); // NOI18N jLabel4.setText("Email-id :");
+782 [] jLabel6.setFont(new java.awt.Font("Palatino Linotype", 0, 14)); // NOI18N jLabel6.setText("Password :");
+783 [] jLabel7.setFont(new java.awt.Font("Palatino Linotype", 0, 14)); // NOI18N jLabel7.setText("Conform Password :");
+784 [] jLabel8.setFont(new java.awt.Font("Palatino Linotype", 0, 14)); // NOI18N jLabel8.setText("Last Name  :");
+785 [] jLabel9.setFont(new java.awt.Font("Palatino Linotype", 0, 14)); // NOI18N jLabel9.setText("Account Created date :");
+786 [] jLabel11.setFont(new java.awt.Font("Palatino Linotype", 0, 14)); // NOI18N jLabel11.setText("Address :");
+787 [] lblpicture.setIcon(new javax.swing.ImageIcon(getClass().getResource("/profilepic.png"))); // NOI18N
+788 [] txtmobileno.addKeyListener(new java.awt.event.KeyAdapter() { public void keyReleased(java.awt.event.KeyEvent evt) {
+789 [] txtmobilenoKeyReleased(evt);
+790 [] }
+791 [] });
+792 [] txtlastname.addKeyListener(new java.awt.event.KeyAdapter() { public void keyReleased(java.awt.event.KeyEvent evt) {
+793 [] txtlastnameKeyReleased(evt);
+794 [] }
+795 [] });
+796 [] txtemailid.addMouseListener(new java.awt.event.MouseAdapter() { public void mouseEntered(java.awt.event.MouseEvent evt) {
+797 [] txtemailidMouseEntered(evt);
+798 [] }
+799 [] });
+800 [] txtfirstname.setText(" ");
+801 [] txtfirstname.addKeyListener(new java.awt.event.KeyAdapter() { public void keyReleased(java.awt.event.KeyEvent evt) {
+802 [] txtfirstnameKeyReleased(evt);
+803 [] }
+804 [] });
+805 [] txtaddress.setColumns(20); txtaddress.setRows(5);
+806 [] txtaddress.addKeyListener(new java.awt.event.KeyAdapter() { public void keyReleased(java.awt.event.KeyEvent evt) {
+807 [] txtaddressKeyReleased(evt);
+808 [] }
+809 [] });
+810 [] jScrollPane1.setViewportView(txtaddress);
+811 [] jLabel13.setFont(new java.awt.Font("Palatino Linotype", 1, 14)); // NOI18N jLabel13.setForeground(new java.awt.Color(0, 153, 153)); jLabel13.setText("Account ID :");
+812 [] lblacid.setFont(new java.awt.Font("Verdana", 1, 12)); // NOI18N
+813 [] lblacid.setForeground(new java.awt.Color(0, 0, 102)); jButton3.setText("Brouse");
+814 [] jButton3.addActionListener(new java.awt.event.ActionListener() { public void actionPerformed(java.awt.event.ActionEvent evt) {
+815 [] jButton3ActionPerformed(evt);
+816 [] }
+817 [] });
+818 [] jLabel5.setFont(new java.awt.Font("Trebuchet MS", 0, 14)); // NOI18N jLabel5.setText("Gender :");
+819 [] buttonGroup1.add(rmale);
+820 [] rmale.setFont(new java.awt.Font("Trebuchet MS", 0, 14)); // NOI18N rmale.setText("Male");
+821 [] buttonGroup1.add(rfemale);
+822 [] rfemale.setFont(new java.awt.Font("Trebuchet MS", 0, 14)); // NOI18N rfemale.setText("Female");
+823 [] txtpassword.addMouseListener(new java.awt.event.MouseAdapter() { public void mouseExited(java.awt.event.MouseEvent evt) {
+824 [] txtpasswordMouseExited(evt);
+825 [] }
+826 [] });
+827 [] txtpassword.addActionListener(new java.awt.event.ActionListener() { public void actionPerformed(java.awt.event.ActionEvent evt) {
+828 [] txtpasswordActionPerformed(evt);
+829 [] }
+830 [] });
+831 [] txtconformpassword.addMouseListener(new java.awt.event.MouseAdapter() { public void mouseEntered(java.awt.event.MouseEvent evt) {
+832 [] txtconformpasswordMouseEntered(evt);
+833 [] }
+834 [] public void mouseExited(java.awt.event.MouseEvent evt) { txtconformpasswordMouseExited(evt);
+835 [] }
+836 [] });
+837 [] txtconformpassword.addKeyListener(new java.awt.event.KeyAdapter() { public void keyReleased(java.awt.event.KeyEvent evt) {
+838 [] txtconformpasswordKeyReleased(evt);
+839 [] }
+840 [] });
+841 [] javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1); jPanel1.setLayout(jPanel1Layout);
+842 [] jPanel1Layout.setHorizontalGroup(
+843 [] jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+844 [] .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+845 [] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADI
+846 [] NG)
+847 [] EADING)
+848 [] .addGroup(jPanel1Layout.createSequentialGroup()
+849 [] .addGap(32, 32, 32)
+850 [] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.L
+851 [] .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 79,
+852 [] javax.swing.GroupLayout.PREFERRED_SIZE)
+853 [] .addComponent(jLabel6)
+854 [] .addComponent(jLabel3)
+855 [] .addComponent(jLabel9)
+856 [] .addComponent(jLabel5))
+857 [] .addGap(31, 31, 31)
+858 [] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.L EADING, false)
+859 [] .TRAILING)
+860 [] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment
+861 [] .addComponent(txtmobileno, javax.swing.GroupLayout.Alignment.LEADING,
+862 [] javax.swing.GroupLayout.PREFERRED_SIZE, 215, javax.swing.GroupLayout.PREFERRED_SIZE)
+863 [] .addGroup(jPanel1Layout.createSequentialGroup()
+864 [] .addComponent(txtfirstname, javax.swing.GroupLayout.PREFERRED_SIZE, 215, javax.swing.GroupLayout.PREFERRED_SIZE)
+865 [] .addGap(235, 235, 235)))
+866 [] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment
+867 [] .TRAILING, false)
+868 [] .addGroup(jPanel1Layout.createSequentialGroup()
+869 [] .addComponent(accountdate, javax.swing.GroupLayout.PREFERRED_SIZE, 215, javax.swing.GroupLayout.PREFERRED_SIZE)
+870 [] .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+871 [] .addComponent(jLabel11))
+872 [] .addGroup(jPanel1Layout.createSequentialGroup()
+873 [] .addComponent(txtpassword, javax.swing.GroupLayout.PREFERRED_SIZE, 215, javax.swing.GroupLayout.PREFERRED_SIZE)
+874 [] .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+875 [] .addComponent(jLabel7))
+876 [] .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+877 [] .addGroup(jPanel1Layout.createSequentialGroup()
+878 [] .addComponent(rmale)
+879 [] .addGap(91, 91, 91)
+880 [] .addComponent(rfemale)
+881 [] .addGap(204, 204, 204))
+882 [] .addComponent(jLabel4)
+883 [] .addComponent(jLabel8)))))
+884 [] .addGroup(jPanel1Layout.createSequentialGroup()
+885 [] .addGap(18, 18, 18)
+886 [] .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+887 [] .addGap(109, 109, 109)
+888 [] .addComponent(lblacid, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)))
+889 [] .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 20, Short.MAX_VALUE)
+890 [] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADI
+891 [] NG)
+892 [] .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE,
+893 [] javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+894 [] .addGroup(jPanel1Layout.createSequentialGroup()
+895 [] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.T RAILING, false)
+896 [] .addComponent(txtconformpassword, javax.swing.GroupLayout.Alignment.LEADING)
+897 [] .addComponent(txtemailid, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 215, Short.MAX_VALUE)
+898 [] .addComponent(txtlastname, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 215, Short.MAX_VALUE))
+899 [] .addGap(172, 172, 172)
+900 [] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.L EADING, false)
+901 [] .addComponent(lblpicture, javax.swing.GroupLayout.PREFERRED_SIZE, 122, javax.swing.GroupLayout.PREFERRED_SIZE)
+902 [] .addComponent(jButton3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+903 [] .addComponent(txtpicname))))
+904 [] .addGap(47, 47, 47))
+905 [] NG)
+906 [] );
+907 [] jPanel1Layout.setVerticalGroup( jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+908 [] .addGroup(jPanel1Layout.createSequentialGroup()
+909 [] .addContainerGap()
+910 [] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADI
+911 [] .addGroup(jPanel1Layout.createSequentialGroup()
+912 [] .addComponent(jLabel13)
+913 [] .addGap(2, 2, 2))
+914 [] .addComponent(lblacid, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE))
+915 [] .addGap(25, 25, 25)
+916 [] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASE
+917 [] LINE)
+918 [] .addComponent(jLabel2)
+919 [] .addComponent(txtfirstname, javax.swing.GroupLayout.PREFERRED_SIZE,
+920 [] javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+921 [] .addComponent(jLabel8)
+922 [] .addComponent(txtlastname, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+923 [] .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 37, Short.MAX_VALUE)
+924 [] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASE
+925 [] LINE)
+926 [] .addComponent(jLabel3)
+927 [] .addComponent(txtmobileno, javax.swing.GroupLayout.PREFERRED_SIZE,
+928 [] javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+929 [] .addComponent(jLabel4)
+930 [] .addComponent(txtemailid, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+931 [] .addGap(37, 37, 37)
+932 [] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASE
+933 [] LINE)
+934 [] .addComponent(jLabel6)
+935 [] .addComponent(jLabel7)
+936 [] .addComponent(txtpassword, javax.swing.GroupLayout.PREFERRED_SIZE,
+937 [] javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+938 [] .addComponent(txtconformpassword, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+939 [] .addGap(34, 34, 34)
+940 [] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADI
+941 [] NG) ELINE)
+942 [] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BAS
+943 [] .addComponent(jLabel9)
+944 [] .addComponent(accountdate, javax.swing.GroupLayout.PREFERRED_SIZE,
+945 [] javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+946 [] .addComponent(jLabel11))
+947 [] .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+948 [] .addGap(48, 48, 48))
+949 [] .addGroup(jPanel1Layout.createSequentialGroup()
+950 [] .addComponent(lblpicture, javax.swing.GroupLayout.PREFERRED_SIZE, 153, javax.swing.GroupLayout.PREFERRED_SIZE)
+951 [] .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+952 [] .addComponent(jButton3)
+953 [] .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+954 [] .addComponent(txtpicname, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+955 [] .addGap(86, 86, 86)
+956 [] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASE
+957 [] LINE)
+958 [] );
+959 [] .addComponent(jLabel5)
+960 [] .addComponent(rmale)
+961 [] .addComponent(rfemale))
+962 [] .addGap(40, 40, 40))
+963 [] jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+964 [] jLabel1.setForeground(new java.awt.Color(156, 0, 0)); jLabel1.setText("Update User Account :-");
+965 [] jButton1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N jButton1.setText("Delete");
+966 [] jButton1.addActionListener(new java.awt.event.ActionListener() { public void actionPerformed(java.awt.event.ActionEvent evt) {
+967 [] jButton1ActionPerformed(evt);
+968 [] }
+969 [] });
+970 [] jButton2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N jButton2.setText("Update");
+971 [] jButton2.addActionListener(new java.awt.event.ActionListener() { public void actionPerformed(java.awt.event.ActionEvent evt) {
+972 [] jButton2ActionPerformed(evt);
+973 [] }
+974 [] });
+975 [] javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane()); getContentPane().setLayout(layout);
+976 [] layout.setHorizontalGroup( layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+977 [] .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+978 [] .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+979 [] .addContainerGap())
+980 [] .addGroup(layout.createSequentialGroup()
+981 [] .addGap(405, 405, 405)
+982 [] .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE)
+983 [] .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+984 [] .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+985 [] .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+986 [] .addComponent(jButton1)
+987 [] .addGap(71, 71, 71)
+988 [] .addComponent(jButton2)
+989 [] .addGap(134, 134, 134))
+990 [] );
+991 [] layout.setVerticalGroup( layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+992 [] .addGroup(layout.createSequentialGroup()
+993 [] .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
+994 [] .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+995 [] .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+996 [] .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 86, Short.MAX_VALUE)
+997 [] .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+998 [] .addComponent(jButton2)
+999 [] .addComponent(jButton1))
+1000 [] .addGap(80, 80, 80))
+1001 [] );
+1002 [] setBounds(0, 55, 1275, 660);
+1003 [] }// </editor-fold>
+1004 [] private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
+1005 [] Statement st1; Connection cn1; boolean q;
+1006 [] String firstname,lastname, mobileno,teachername,password,conpass, acdate,address, gender = "", email;
+1007 [] int id,rollno;
+1008 [] String picturename ="";
+1009 [] id = Integer.parseInt(lblacid.getText()); firstname= txtfirstname.getText(); lastname=txtlastname.getText(); mobileno= txtmobileno.getText();
+1010 [] email= txtemailid.getText(); password= txtpassword.getText(); conpass=txtconformpassword.getText(); acdate=accountdate.getText();
+1011 [] if (rmale.isSelected())
+1012 [] {
+1013 [] gender = rmale.getText();
+1014 [] }
+1015 [] else if (rfemale.isSelected()) { gender = rfemale.getText();
+1016 [] }
+1017 [] address= txtaddress.getText(); picturename =txtpicname.getText();
+1018 [] try
+1019 [] {
+1020 [] Class.forName("com.mysql.jdbc.Driver"); cn1=DriverManager.getConnection("jdbc:mysql://localhost:3306/school","root","sandip");
+1021 [] // st1=cn1.createStatement(); if(filename.equals(""))
+1022 [] {
+1023 [] if(JOptionPane.showConfirmDialog(rootPane, "Do you want to Save ?")==JOptionPane.YES_OPTION)
+1024 [] {
+1025 [] PreparedStatement statement = cn1.prepareStatement("UPDATE userinfo SET firstname
+1026 [] = ?,lastname = ?,mobileno = ?,email = ? ,password = ? ,repassword = ?,acdate= ?,gender = ?,address
+1027 [] = ? WHERE id = "+id+"");//ps.setString(1, (String) jTable1. getValueAt(x, 0));
+1028 [] statement.setString(1,firstname); statement.setString(2,lastname); statement.setString(3,mobileno); statement.setString(4,email); statement.setString(5,password); statement.setString(6,conpass); statement.setString(7,acdate); statement.setString(8,gender); statement.setString(9,address);
+1029 [] int row = statement.executeUpdate();
+1030 [] if (row > 0)
+1031 [] {
+1032 [] JOptionPane.showMessageDialog(rootPane,"Record is Succesfully updated without photo");
+1033 [] }
+1034 [] }
+1035 [] }
+1036 [] else
+1037 [] {
+1038 [] if(JOptionPane.showConfirmDialog(rootPane, "Do you want to
+1039 [] Save ?")==JOptionPane.YES_OPTION)
+1040 [] {
+1041 [] PreparedStatement statement = cn1.prepareStatement("UPDATE userinfo SET firstname
+1042 [] = ?,lastname = ?,mobileno = ?,email = ? ,password = ? ,repassword = ?,acdate= ?,gender = ?,address
+1043 [] = ?,photo = ? WHERE id = "+id+"");//ps.setString(1, (String) jTable1. getValueAt(x, 0)); statement.setString(1,firstname);
+1044 [] statement.setString(2,lastname); statement.setString(3,mobileno); statement.setString(4,email); statement.setString(5,password); statement.setString(6,conpass); statement.setString(7,acdate); statement.setString(8,gender); statement.setString(9,address);
+1045 [] InputStream inputStream = new FileInputStream(new File(txtpicname.getText())); statement.setBlob(10, inputStream);
+1046 [] int row = statement.executeUpdate(); if (row > 0)
+1047 [] {
+1048 [] JOptionPane.showMessageDialog(rootPane,"Record is Succesfully updated with photo");
+1049 [] }
+1050 [] }
+1051 [] }
+1052 [] }
+1053 [] catch(Exception e)
+1054 [] {
+1055 [] JOptionPane.showMessageDialog(rootPane,e.getMessage());
+1056 [] }
+1057 [] // TODO add your handling code here:
+1058 [] }
+1059 [] private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) { JFileChooser chooser = new JFileChooser(); chooser.showOpenDialog(null);
+1060 [] File f = chooser.getSelectedFile(); filename = f.getAbsolutePath(); txtpicname.setText(filename);
+1061 [] BufferedImage bi; try
+1062 [] { //display the image in jlabel bi=ImageIO.read(f); lblpicture.setIcon(new ImageIcon(bi));
+1063 [] }
+1064 [] catch(IOException e)
+1065 [] {
+1066 [] }
+1067 [] // TODO add your handling code here:
+1068 [] }
+1069 [] private void txtfirstnameKeyReleased(java.awt.event.KeyEvent evt) { txtfirstname.setText(txtfirstname.getText().toUpperCase());
+1070 [] // TODO add your handling code here:
+1071 [] }
+1072 [] private void txtmobilenoKeyReleased(java.awt.event.KeyEvent evt) {
+1073 [] // TODO add your handling code here:
+1074 [] }
+1075 [] private void txtlastnameKeyReleased(java.awt.event.KeyEvent evt) { txtlastname.setText(txtlastname.getText().toUpperCase());
+1076 [] // TODO add your handling code here:
+1077 [] }
+1078 [] private void txtaddressKeyReleased(java.awt.event.KeyEvent evt) { txtaddress.setText(txtaddress.getText().toUpperCase());
+1079 [] // TODO add your handling code here:
+1080 [] }
+1081 [] private void txtconformpasswordKeyReleased(java.awt.event.KeyEvent evt) {
+1082 [] // TODO add your handling code here:
+1083 [] }
+1084 [] private void txtconformpasswordMouseExited(java.awt.event.MouseEvent evt) { char[] pass =txtpassword.getPassword();
+1085 [] char[] conpass= txtconformpassword.getPassword(); if (pass.length!= conpass.length) {
+1086 [] JOptionPane.showMessageDialog(rootPane,"Password not matched!");
+1087 [] }
+1088 [] // TODO add your handling code here:
+1089 [] }
+1090 [] private void txtpasswordActionPerformed(java.awt.event.ActionEvent evt) {
+1091 [] // TODO add your handling code here:
+1092 [] }
+1093 [] private void txtpasswordMouseExited(java.awt.event.MouseEvent evt) {
+1094 [] // TODO add your handling code here:
+1095 [] }
+1096 [] private void txtconformpasswordMouseEntered(java.awt.event.MouseEvent evt) { char[] password = txtpassword.getPassword();
+1097 [] if (password.length < 8) {
+1098 [] JOptionPane.showMessageDialog(rootPane,"Password must contain at least 8 characters!");
+1099 [] }
+1100 [] // TODO add your handling code here:
+1101 [] }
+1102 [] private void txtemailidMouseEntered(java.awt.event.MouseEvent evt) {
+1103 [] // TODO add your handling code here:
+1104 [] }
+1105 [] private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) { Statement st;
+1106 [] Connection cn; ResultSet rs;
+1107 [] String admission, uname;
+1108 [] int id;
+1109 [] admission = lblacid.getText(); id=Integer.parseInt(admission); uname =txtfirstname.getText(); try
+1110 [] {
+1111 [] Class.forName("com.mysql.jdbc.Driver"); cn=DriverManager.getConnection("jdbc:mysql://localhost:3306/school","root","sandip");
+1112 [] st=cn.createStatement();
+1113 [] //JOptionPane.showMessageDialog(rootPane,"value of x"+d); if(JOptionPane.showConfirmDialog(rootPane, "Do you want to Delete name = "+uname)==JOptionPane.YES_OPTION)
+1114 [] {
+1115 [] String p1="delete from userinfo where id='"+id+"'"; st.execute(p1);
+1116 [] //st1.execute(p1);
+1117 [] }
+1118 [] st.close();
+1119 [] cn.close();
+1120 [] }
+1121 [] catch(Exception e)
+1122 [] {
+1123 [] System.out.println(e.getMessage());
+1124 [] }
+1125 [] // TODO add your handling code here:
+1126 [] }
+1127 [] /**
+1128 [ListParagraph] @param args the command line arguments
+1129 [] */
+1130 [] public static void main(String args[]) {
+1131 [] /* Set the Nimbus look and feel */
+1132 [] //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
+1133 [] /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
+1134 [ListParagraph] For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html
+1135 [] */ try {
+1136 [] for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+1137 [] if ("Nimbus".equals(info.getName())) { javax.swing.UIManager.setLookAndFeel(info.getClassName()); break;
+1138 [] }
+1139 [] }
+1140 [] } catch (ClassNotFoundException ex) {
+1141 [] java.util.logging.Logger.getLogger(user_add.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+1142 [] } catch (InstantiationException ex) {
+1143 [] java.util.logging.Logger.getLogger(user_add.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+1144 [] } catch (IllegalAccessException ex) {
+1145 [] java.util.logging.Logger.getLogger(user_add.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+1146 [] } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+1147 [] java.util.logging.Logger.getLogger(user_add.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+1148 [] }
+1149 [] //</editor-fold>
+1150 [] /* Create and display the form */ java.awt.EventQueue.invokeLater(new Runnable() {
+1151 [] public void run() {
+1152 [] new user_update().setVisible(true);
+1153 [] }
+1154 [] });
+1155 [] }
+1156 [] // Variables declaration - do not modify public javax.swing.JTextField accountdate;
+1157 [] private javax.swing.ButtonGroup buttonGroup1; private javax.swing.JButton jButton1;
+1158 [] private javax.swing.JButton jButton2; private javax.swing.JButton jButton3; private javax.swing.JLabel jLabel1; private javax.swing.JLabel jLabel11; private javax.swing.JLabel jLabel13; private javax.swing.JLabel jLabel2; private javax.swing.JLabel jLabel3; private javax.swing.JLabel jLabel4;
+1159 [] private javax.swing.JLabel jLabel5; private javax.swing.JLabel jLabel6; private javax.swing.JLabel jLabel7; private javax.swing.JLabel jLabel8; private javax.swing.JLabel jLabel9; private javax.swing.JPanel jPanel1;
+1160 [] private javax.swing.JScrollPane jScrollPane1; public javax.swing.JLabel lblacid;
+1161 [] public javax.swing.JLabel lblpicture; public javax.swing.JRadioButton rfemale; public javax.swing.JRadioButton rmale; public javax.swing.JTextArea txtaddress;
+1162 [] public javax.swing.JPasswordField txtconformpassword; public javax.swing.JTextField txtemailid;
+1163 [] public javax.swing.JTextField txtfirstname; public javax.swing.JTextField txtlastname; public javax.swing.JTextField txtmobileno; public javax.swing.JPasswordField txtpassword; private javax.swing.JTextField txtpicname;
+1164 [] // End of variables declaration
+1165 [] }
+1166 [] Delete User Account(delete_user_profile.java)
+1167 [] Code:
+1168 [] import java.awt.Image;
+1169 [] import java.io.BufferedInputStream; import java.sql.Connection;
+1170 [] import java.sql.DriverManager; import java.sql.ResultSet; import java.sql.Statement; import javax.imageio.ImageIO;
+1171 [] import javax.swing.ImageIcon; import javax.swing.JOptionPane;
+1172 [] /*
+1173 [ListParagraph] To change this template, choose Tools | Templates
+1174 [ListParagraph] and open the template in the editor.
+1175 [] */
+1176 [] /**
+1177 [] *
+1178 [ListParagraph] @author sand
+1179 [] */
+1180 [] public class delate_user_profile extends javax.swing.JFrame {
+1181 [] /**
+1182 [ListParagraph] Creates new form update_student_profile
+1183 [] */
+1184 [] public delate_user_profile() { initComponents();
+1185 [] }
+1186 [] /**
+1187 [ListParagraph] This method is called from within the constructor to initialize the form.
+1188 [ListParagraph] WARNING: Do NOT modify this code. The content of this method is always
+1189 [ListParagraph] regenerated by the Form Editor.
+1190 [] */ @SuppressWarnings("unchecked")
+1191 [] // <editor-fold defaultstate="collapsed" desc="Generated Code"> private void initComponents() {
+1192 [] jPanel1 = new javax.swing.JPanel(); jLabel1 = new javax.swing.JLabel();
+1193 [] txtadmissionsearch = new javax.swing.JTextField(); jButton1 = new javax.swing.JButton();
+1194 [] setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+1195 [] jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createE tchedBorder(new java.awt.Color(204, 204, 204), null), "Delate User Profile :", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Trebuchet MS", 1, 14),
+1196 [] new java.awt.Color(102, 0, 102))); // NOI18N
+1197 [] jLabel1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+1198 [] jLabel1.setText("Enter User ID :");
+1199 [] txtadmissionsearch.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() { public void mouseMoved(java.awt.event.MouseEvent evt) {
+1200 [] txtadmissionsearchMouseMoved(evt);
+1201 [] }
+1202 [] });
+1203 [] txtadmissionsearch.addKeyListener(new java.awt.event.KeyAdapter() { public void keyReleased(java.awt.event.KeyEvent evt) {
+1204 [] txtadmissionsearchKeyReleased(evt);
+1205 [] }
+1206 [] });
+1207 [] jButton1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N jButton1.setText("Delete");
+1208 [] jButton1.addMouseListener(new java.awt.event.MouseAdapter() { public void mouseClicked(java.awt.event.MouseEvent evt) {
+1209 [] jButton1MouseClicked(evt);
+1210 [] }
+1211 [] });
+1212 [] jButton1.addActionListener(new java.awt.event.ActionListener() { public void actionPerformed(java.awt.event.ActionEvent evt) {
+1213 [] jButton1ActionPerformed(evt);
+1214 [] }
+1215 [] });
+1216 [] jButton1.addKeyListener(new java.awt.event.KeyAdapter() { public void keyPressed(java.awt.event.KeyEvent evt) {
+1217 [] jButton1KeyPressed(evt);
+1218 [] }
+1219 [] });
+1220 [] javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1); jPanel1.setLayout(jPanel1Layout);
+1221 [] jPanel1Layout.setHorizontalGroup( jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+1222 [] .addGroup(jPanel1Layout.createSequentialGroup()
+1223 [] .addGap(37, 37, 37)
+1224 [] .addComponent(jLabel1)
+1225 [] .addGap(53, 53, 53)
+1226 [] .addComponent(txtadmissionsearch, javax.swing.GroupLayout.DEFAULT_SIZE, 151, Short.MAX_VALUE)
+1227 [] .addGap(51, 51, 51)
+1228 [] .addComponent(jButton1)
+1229 [] .addGap(84, 84, 84))
+1230 [] );
+1231 [] jPanel1Layout.setVerticalGroup( jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+1232 [] .addGroup(jPanel1Layout.createSequentialGroup()
+1233 [] .addGap(50, 50, 50)
+1234 [] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAIL
+1235 [] ING) ELINE)
+1236 [] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BAS
+1237 [] .addComponent(txtadmissionsearch, javax.swing.GroupLayout.PREFERRED_SIZE,
+1238 [] javax.swing.GroupLayout.DEFAULT_SIZE,   javax.swing.GroupLayout.PREFERRED_SIZE)
+1239 [] .addComponent(jButton1))
+1240 [] .addComponent(jLabel1))
+1241 [] .addContainerGap(57, Short.MAX_VALUE))
+1242 [] );
+1243 [] javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane()); getContentPane().setLayout(layout);
+1244 [] layout.setHorizontalGroup( layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+1245 [] .addGroup(layout.createSequentialGroup()
+1246 [] .addGap(43, 43, 43)
+1247 [] .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+1248 [] .addContainerGap(50, Short.MAX_VALUE))
+1249 [] );
+1250 [] layout.setVerticalGroup( layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+1251 [] .addGroup(layout.createSequentialGroup()
+1252 [] .addGap(28, 28, 28)
+1253 [] .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+1254 [] .addContainerGap(57, Short.MAX_VALUE))
+1255 [] );
+1256 [] setBounds(100, 55, 667, 286);
+1257 [] }// </editor-fold>
+1258 [] private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) { Statement st;
+1259 [] Connection cn; ResultSet rs;
+1260 [] String admission, sname; int admissionno;
+1261 [] admission = txtadmissionsearch.getText(); admissionno=Integer.parseInt(admission);
+1262 [] try
+1263 [] {
+1264 [] Class.forName("com.mysql.jdbc.Driver"); cn=DriverManager.getConnection("jdbc:mysql://localhost:3306/school","root","sandip");
+1265 [] st=cn.createStatement();
+1266 [] //JOptionPane.showMessageDialog(rootPane,"value of x"+d); if(JOptionPane.showConfirmDialog(rootPane, "Are u Sure Delete This Profile?")==JOptionPane.YES_OPTION)
+1267 [] {
+1268 [] String p1="delete from userinfo where id='"+admissionno+"'"; st.execute(p1);
+1269 [] //st1.execute(p1);
+1270 [] }
+1271 [] st.close();
+1272 [] cn.close();
+1273 [] }
+1274 [] catch(Exception e)
+1275 [] {
+1276 [] System.out.println(e.getMessage());
+1277 [] }
+1278 [] // TODO add your handling code here:
+1279 [] }
+1280 [] private void jButton1KeyPressed(java.awt.event.KeyEvent evt) {
+1281 [] // TODO add your handling code here:
+1282 [] }
+1283 [] private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {
+1284 [] // TODO add your handling code here:
+1285 [] }
+1286 [] private void txtadmissionsearchKeyReleased(java.awt.event.KeyEvent evt) { Statement st;
+1287 [] Connection cn; ResultSet rs;
+1288 [] String admission,studentname; int admissionno,date ,year;
+1289 [] admission=txtadmissionsearch.getText(); admissionno=Integer.parseInt(admission); try
+1290 [] {
+1291 [] Class.forName("com.mysql.jdbc.Driver"); cn=DriverManager.getConnection("jdbc:mysql://localhost:3306/school","root","sandip"); st=cn.createStatement();
+1292 [] String sql="Select * from userinfo where id ="+admissionno+" "; rs=st.executeQuery(sql);
+1293 [] if(rs.next())
+1294 [] {
+1295 [] studentname=rs.getString("firstname");
+1296 [] JOptionPane.showMessageDialog(null, "Do You want to Delete ,"+ studentname + " Profile Click Delete Button");
+1297 [] }
+1298 [] }
+1299 [] catch(Exception e)
+1300 [] {
+1301 [] JOptionPane.showMessageDialog(null, e.getMessage());
+1302 [] }
+1303 [] // TODO add your handling code here:
+1304 [] }
+1305 [] private void txtadmissionsearchMouseMoved(java.awt.event.MouseEvent evt) {
+1306 [] // TODO add your handling code here:
+1307 [] }
+1308 [] /**
+1309 [ListParagraph] @param args the command line arguments
+1310 [] */
+1311 [] public static void main(String args[]) {
+1312 [] /* Set the Nimbus look and feel */
+1313 [] //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
+1314 [] /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
+1315 [ListParagraph] For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html
+1316 [] */ try {
+1317 [] for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+1318 [] if ("Nimbus".equals(info.getName())) {
+1319 [] javax.swing.UIManager.setLookAndFeel(info.getClassName()); break;
+1320 [] }
+1321 [] }
+1322 [] } catch (ClassNotFoundException ex) {
+1323 [] java.util.logging.Logger.getLogger(update_student_profile.class.getName()).log(java.util.logging.Le vel.SEVERE, null, ex);
+1324 [] } catch (InstantiationException ex) {
+1325 [] java.util.logging.Logger.getLogger(update_student_profile.class.getName()).log(java.util.logging.Le vel.SEVERE, null, ex);
+1326 [] } catch (IllegalAccessException ex) {
+1327 [] java.util.logging.Logger.getLogger(update_student_profile.class.getName()).log(java.util.logging.Le vel.SEVERE, null, ex);
+1328 [] } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+1329 [] java.util.logging.Logger.getLogger(update_student_profile.class.getName()).log(java.util.logging.Le vel.SEVERE, null, ex);
+1330 [] }
+1331 [] //</editor-fold>
+1332 [] /* Create and display the form */ java.awt.EventQueue.invokeLater(new Runnable() {
+1333 [] public void run() {
+1334 [] new delate_user_profile().setVisible(true);
+1335 [] }
+1336 [] });
+1337 [] }
+1338 [] // Variables declaration - do not modify private javax.swing.JButton jButton1; private javax.swing.JLabel jLabel1; private javax.swing.JPanel jPanel1;
+1339 [] private javax.swing.JTextField txtadmissionsearch;
+1340 [] // End of variables declaration
+1341 [] }
+1342 [] Search User information(user_information.java)
+1343 [] Code:
+1344 [] import java.awt.Image;
+1345 [] import java.io.BufferedInputStream; import java.sql.Connection;
+1346 [] import java.sql.DriverManager; import java.sql.ResultSet; import java.sql.Statement;
+1347 [] import javax.swing.table.DefaultTableModel;
+1348 [] /*
+1349 [ListParagraph] To change this template, choose Tools | Templates
+1350 [ListParagraph] and open the template in the editor.
+1351 [] */
+1352 [] /**
+1353 [] *
+1354 [ListParagraph] @author sand
+1355 [] */
+1356 [] import java.sql.*;
+1357 [] import javax.imageio.ImageIO; import javax.swing.ImageIcon; import javax.swing.JOptionPane;
+1358 [] import javax.swing.table.DefaultTableModel;
+1359 [] public class user_information extends javax.swing.JFrame {
+1360 [] /**
+1361 [ListParagraph] Creates new form studentdetails
+1362 [] */
+1363 [] public user_information() { initComponents();
+1364 [] }
+1365 [] /**
+1366 [ListParagraph] This method is called from within the constructor to initialize the form.
+1367 [ListParagraph] WARNING: Do NOT modify this code. The content of this method is always
+1368 [ListParagraph] regenerated by the Form Editor.
+1369 [] */ @SuppressWarnings("unchecked")
+1370 [] // <editor-fold defaultstate="collapsed" desc="Generated Code"> private void initComponents() {
+1371 [] jPanel3 = new javax.swing.JPanel(); jPanel2 = new javax.swing.JPanel();
+1372 [] jScrollPane1 = new javax.swing.JScrollPane(); jTable1 = new javax.swing.JTable(); jScrollPane2 = new javax.swing.JScrollPane(); jTextPane1 = new javax.swing.JTextPane(); jLabel1 = new javax.swing.JLabel();
+1373 [] jButton3 = new javax.swing.JButton(); jButton2 = new javax.swing.JButton(); jButton6 = new javax.swing.JButton(); jButton8 = new javax.swing.JButton(); jButton4 = new javax.swing.JButton(); jButton5 = new javax.swing.JButton(); jButton1 = new javax.swing.JButton(); jLabel2 = new javax.swing.JLabel(); jLabel3 = new javax.swing.JLabel(); jButton7 = new javax.swing.JButton();
+1374 [] setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE); setResizable(false);
+1375 [] jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "All Records of Users :", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 12), new
+1376 [] java.awt.Color(0, 153, 153))); // NOI18N
+1377 [] jTable1.setModel(new javax.swing.table.DefaultTableModel( new Object [][] {
+1378 [] },
+1379 [] new String [] {
+1380 [] "User Id.", "First Name.", "Last Name.", "Contact No.", "Email", "Address.", "gender"
+1381 [] }
+1382 [] ));
+1383 [] jScrollPane1.setViewportView(jTable1);
+1384 [] javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2); jPanel2.setLayout(jPanel2Layout);
+1385 [] jPanel2Layout.setHorizontalGroup( jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+1386 [] .addGroup(jPanel2Layout.createSequentialGroup()
+1387 [] .addContainerGap()
+1388 [] .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 702, javax.swing.GroupLayout.PREFERRED_SIZE)
+1389 [] .addContainerGap(28, Short.MAX_VALUE))
+1390 [] );
+1391 [] jPanel2Layout.setVerticalGroup( jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+1392 [] .addGroup(jPanel2Layout.createSequentialGroup()
+1393 [] .addContainerGap()
+1394 [] .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 215, Short.MAX_VALUE)
+1395 [] .addContainerGap())
+1396 [] );
+1397 [] jScrollPane2.setViewportView(jTextPane1);
+1398 [] jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N jLabel1.setText("User Report Preview :");
+1399 [] jButton3.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N jButton3.setText("Update");
+1400 [] jButton3.addActionListener(new java.awt.event.ActionListener() { public void actionPerformed(java.awt.event.ActionEvent evt) {
+1401 [] jButton3ActionPerformed(evt);
+1402 [] }
+1403 [] });
+1404 [] jButton2.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N jButton2.setText("Register");
+1405 [] jButton2.addActionListener(new java.awt.event.ActionListener() {
+1406 [] public void actionPerformed(java.awt.event.ActionEvent evt) { jButton2ActionPerformed(evt);
+1407 [] }
+1408 [] });
+1409 [] jButton6.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N jButton6.setText("Print");
+1410 [] jButton6.addActionListener(new java.awt.event.ActionListener() { public void actionPerformed(java.awt.event.ActionEvent evt) {
+1411 [] jButton6ActionPerformed(evt);
+1412 [] }
+1413 [] });
+1414 [] jButton8.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N jButton8.setText("Preview");
+1415 [] jButton8.addActionListener(new java.awt.event.ActionListener() { public void actionPerformed(java.awt.event.ActionEvent evt) {
+1416 [] jButton8ActionPerformed(evt);
+1417 [] }
+1418 [] });
+1419 [] jButton4.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N jButton4.setText("DELETE");
+1420 [] jButton4.addActionListener(new java.awt.event.ActionListener() { public void actionPerformed(java.awt.event.ActionEvent evt) {
+1421 [] jButton4ActionPerformed(evt);
+1422 [] }
+1423 [] });
+1424 [] jButton5.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N jButton5.setText("Exit");
+1425 [] jButton5.addActionListener(new java.awt.event.ActionListener() { public void actionPerformed(java.awt.event.ActionEvent evt) {
+1426 [] jButton5ActionPerformed(evt);
+1427 [] }
+1428 [] });
+1429 [] jButton1.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N jButton1.setText("Show-details "); jButton1.addActionListener(new java.awt.event.ActionListener() {
+1430 [] public void actionPerformed(java.awt.event.ActionEvent evt) { jButton1ActionPerformed(evt);
+1431 [] }
+1432 [] });
+1433 [] jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/inbo.png"))); // NOI18N jLabel3.setText(" ");
+1434 [] jButton7.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N jButton7.setText("Search");
+1435 [] jButton7.addActionListener(new java.awt.event.ActionListener() { public void actionPerformed(java.awt.event.ActionEvent evt) {
+1436 [] jButton7ActionPerformed(evt);
+1437 [] }
+1438 [] });
+1439 [] javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3); jPanel3.setLayout(jPanel3Layout);
+1440 [] jPanel3Layout.setHorizontalGroup( jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+1441 [] .addGroup(jPanel3Layout.createSequentialGroup()
+1442 [] .addContainerGap()
+1443 [] .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAI
+1444 [] LING)
+1445 [] .addGroup(jPanel3Layout.createSequentialGroup()
+1446 [] .addComponent(jLabel1)
+1447 [] .addGap(451, 451, 451)
+1448 [] .addComponent(jButton1))
+1449 [] .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 109,
+1450 [] javax.swing.GroupLayout.PREFERRED_SIZE)
+1451 [] .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TR AILING, false)
+1452 [] .addComponent(jScrollPane2)
+1453 [] .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+1454 [] .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEAD
+1455 [] ING)
+1456 [] .addGroup(jPanel3Layout.createSequentialGroup()
+1457 [] .addGap(18, 72, Short.MAX_VALUE)
+1458 [] .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.L
+1459 [] EADING, false)
+1460 [] .addComponent(jButton3, javax.swing.GroupLayout.DEFAULT_SIZE, 109,
+1461 [] Short.MAX_VALUE)
+1462 [] .addComponent(jButton4, javax.swing.GroupLayout.DEFAULT_SIZE, 109, Short.MAX_VALUE)
+1463 [] .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, 109, Short.MAX_VALUE)
+1464 [] .addComponent(jButton6, javax.swing.GroupLayout.DEFAULT_SIZE, 109, Short.MAX_VALUE)
+1465 [] .addComponent(jButton5, javax.swing.GroupLayout.DEFAULT_SIZE, 109, Short.MAX_VALUE)
+1466 [] .addComponent(jButton7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+1467 [] .addGap(45, 45, 45))
+1468 [] .addGroup(jPanel3Layout.createSequentialGroup()
+1469 [] .addGap(4, 4, 4)
+1470 [] .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 196, javax.swing.GroupLayout.PREFERRED_SIZE)
+1471 [] .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+1472 [] .addComponent(jLabel2)
+1473 [] .addContainerGap(20, Short.MAX_VALUE))))
+1474 [] );
+1475 [] jPanel3Layout.setVerticalGroup( jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+1476 [] .addGroup(jPanel3Layout.createSequentialGroup()
+1477 [] .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEAD
+1478 [] ING)
+1479 [] .addGroup(javax.swing.GroupLayout.Alignment.TRAILING,
+1480 [] jPanel3Layout.createSequentialGroup()
+1481 [] .addGap(27, 27, 27)
+1482 [] .addComponent(jButton3)
+1483 [] .addGap(27, 27, 27)
+1484 [] .addComponent(jButton4)
+1485 [] .addGap(18, 18, 18)
+1486 [] .addComponent(jButton2)
+1487 [] .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+1488 [] .addComponent(jButton7)
+1489 [] .addGap(13, 13, 13)
+1490 [] .addComponent(jButton6)
+1491 [] .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+1492 [] .addComponent(jButton5)
+1493 [] .addGap(25, 25, 25)
+1494 [] .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.L EADING, false)
+1495 [] .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 261, javax.swing.GroupLayout.PREFERRED_SIZE)
+1496 [] .addGroup(jPanel3Layout.createSequentialGroup()
+1497 [] .addGap(8, 8, 8)
+1498 [] .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))))
+1499 [] .addGroup(jPanel3Layout.createSequentialGroup()
+1500 [] .addContainerGap()
+1501 [] .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+1502 [] ASELINE)
+1503 [] .addGap(2, 2, 2)
+1504 [] .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.B
+1505 [] .addComponent(jLabel1)
+1506 [] .addComponent(jButton1))
+1507 [] .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+1508 [] .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 219,
+1509 [] javax.swing.GroupLayout.PREFERRED_SIZE)))
+1510 [] .addGap(18, 18, 18)
+1511 [] .addComponent(jButton8)
+1512 [] .addContainerGap(30, Short.MAX_VALUE))
+1513 [] );
+1514 [] javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane()); getContentPane().setLayout(layout);
+1515 [] layout.setHorizontalGroup( layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+1516 [] .addGroup(layout.createSequentialGroup()
+1517 [] .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+1518 [] .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+1519 [] );
+1520 [] layout.setVerticalGroup( layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+1521 [] .addGroup(layout.createSequentialGroup()
+1522 [] .addGap(40, 40, 40)
+1523 [] .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+1524 [] .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+1525 [] );
+1526 [] pack();
+1527 [] }// </editor-fold>
+1528 [] private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) { DefaultTableModel model = ( DefaultTableModel)jTable1.getModel();
+1529 [] Statement st1; boolean q; Connection cn; ResultSet rs;
+1530 [] String firstname,lastname,mobileno,email,password,address; int id=0;
+1531 [] try
+1532 [] {
+1533 [] Class.forName("com.mysql.jdbc.Driver"); cn=DriverManager.getConnection("jdbc:mysql://localhost:3306/school","root","sandip");
+1534 [] st1=cn.createStatement();
+1535 [] String p="select id,firstname,lastname,mobileno,email,address,password from userinfo"; rs=st1.executeQuery(p);
+1536 [] while (rs.next())
+1537 [] {
+1538 [] id = rs.getInt("id");
+1539 [] firstname= rs.getString("firstname"); lastname= rs.getString("lastname"); mobileno= rs.getString("mobileno"); email= rs.getString("email"); address= rs.getString("address"); password = rs.getString("password"); model.addRow(new
+1540 [] Object[]{id,firstname,lastname,mobileno,email,address,password});
+1541 [] }
+1542 [] //DefaultTableModel model = (DefaultTableModel) table.getModel(); st1.close();
+1543 [] cn.close();
+1544 [] }
+1545 [] catch(Exception e)
+1546 [] {
+1547 [] System.out.println(e.getMessage());
+1548 [] }
+1549 [] // TODO add your handling code here:
+1550 [] }
+1551 [] private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) { user_add myform = new user_add();
+1552 [] myform.setVisible(true);
+1553 [] // TODO add your handling code here:
+1554 [] }
+1555 [] private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) { if(JOptionPane.showConfirmDialog(rootPane, "Do you Want to
+1556 [] Exit ?")==JOptionPane.YES_OPTION) this.dispose();
+1557 [] // TODO add your handling code here:
+1558 [] }
+1559 [] private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) { try {
+1560 [] if (! jTable1.print()) {
+1561 [] System.err.println("User cancelled printing");
+1562 [] }
+1563 [] } catch (java.awt.print.PrinterException e) { System.err.format("Cannot print %s%n", e.getMessage());
+1564 [] }
+1565 [] // TODO add your handling code here:
+1566 [] }
+1567 [] private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) { int x=jTable1.getSelectedRow();
+1568 [] String d=jTable1.getValueAt(x, 0).toString(); String n=jTable1.getValueAt(x, 1).toString(); Statement st1;
+1569 [] boolean q; Connection cn; ResultSet rs; try
+1570 [] {
+1571 [] Class.forName("com.mysql.jdbc.Driver"); cn=DriverManager.getConnection("jdbc:mysql://localhost:3306/school","root","sandip");
+1572 [] st1=cn.createStatement();
+1573 [] //JOptionPane.showMessageDialog(rootPane,"value of x"+d); if(JOptionPane.showConfirmDialog(rootPane, "Do you want to Delete name = "+n)==JOptionPane.YES_OPTION)
+1574 [] {
+1575 [] String p1="delete from userinfo where id='"+d+"'"; st1.execute(p1);
+1576 [] //st1.execute(p1);
+1577 [] DefaultTableModel model = ( DefaultTableModel)jTable1.getModel(); model.removeRow(x);
+1578 [] }
+1579 [] st1.close();
+1580 [] cn.close();
+1581 [] }
+1582 [] catch(Exception e)
+1583 [] {
+1584 [] System.out.println(e.getMessage());
+1585 [] }
+1586 [] // TODO add your handling code here:
+1587 [] }
+1588 [] private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) { int x=jTable1.getSelectedRow();
+1589 [] String d=jTable1.getValueAt(x,0).toString(); int id=Integer.parseInt(d);
+1590 [] //do the update query on this row
+1591 [] try {
+1592 [] Class.forName("com.mysql.jdbc.Driver");
+1593 [] if(JOptionPane.showConfirmDialog(rootPane, "Want to UPDATE id = "+d)==JOptionPane.YES_OPTION)
+1594 [] {
+1595 [] Connection cn= DriverManager.getConnection("jdbc:mysql://localhost:3306/school","root","sandip");
+1596 [] PreparedStatement ps = cn.prepareStatement("UPDATE userinfo SET firstname
+1597 [] = ? ,lastname = ?,mobileno = ?,email = ?,address = ?,gender= ? WHERE id = "+id+"");
+1598 [] //ps.setString(1, (String) jTable1. getValueAt(x, 0));
+1599 [] ps.setString(1, (String) jTable1.getValueAt(x, 1)); ps.setString(2, (String) jTable1.getValueAt(x, 2)); ps.setString(3, (String) jTable1.getValueAt(x, 3)); ps.setString(4, (String) jTable1.getValueAt(x, 4)); ps.setString(5, (String) jTable1.getValueAt(x, 5)); ps.setString(6, (String) jTable1.getValueAt(x, 6));
+1600 [] ps.executeUpdate(); ps.close();
+1601 [] cn.close();
+1602 [] }
+1603 [] } catch (Exception ex) { ex.printStackTrace();
+1604 [] }
+1605 [] // TODO add your handling code here:
+1606 [] }
+1607 [] private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {
+1608 [] // TODO add your handling code here:
+1609 [] }
+1610 [] private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) { update_user_profile myform = new update_user_profile();
+1611 [] myform.setVisible(true);
+1612 [] // TODO add your handling code here:
+1613 [] }
+1614 [] /**
+1615 [ListParagraph] @param args the command line arguments
+1616 [] */
+1617 [] public static void main(String args[]) {
+1618 [] /* Set the Nimbus look and feel */
+1619 [] //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
+1620 [] /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
+1621 [ListParagraph] For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html
+1622 [] */ try {
+1623 [] for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+1624 [] if ("Nimbus".equals(info.getName())) { javax.swing.UIManager.setLookAndFeel(info.getClassName()); break;
+1625 [] }
+1626 [] }
+1627 [] } catch (ClassNotFoundException ex) {
+1628 [] java.util.logging.Logger.getLogger(teacher_information.class.getName()).log(java.util.logging.Level
+1629 [] .SEVERE, null, ex);
+1630 [] } catch (InstantiationException ex) {
+1631 [] java.util.logging.Logger.getLogger(teacher_information.class.getName()).log(java.util.logging.Level
+1632 [] .SEVERE, null, ex);
+1633 [] } catch (IllegalAccessException ex) {
+1634 [] java.util.logging.Logger.getLogger(teacher_information.class.getName()).log(java.util.logging.Level
+1635 [] .SEVERE, null, ex);
+1636 [] } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+1637 [] java.util.logging.Logger.getLogger(teacher_information.class.getName()).log(java.util.logging.Level
+1638 [] .SEVERE, null, ex);
+1639 [] }
+1640 [] //</editor-fold>
+1641 [] /* Create and display the form */ java.awt.EventQueue.invokeLater(new Runnable() {
+1642 [] public void run() {
+1643 [] new user_information().setVisible(true);
+1644 [] }
+1645 [] });
+1646 [] }
+1647 [] // Variables declaration - do not modify private javax.swing.JButton jButton1; private javax.swing.JButton jButton2; private javax.swing.JButton jButton3; private javax.swing.JButton jButton4; private javax.swing.JButton jButton5; private javax.swing.JButton jButton6; private javax.swing.JButton jButton7; private javax.swing.JButton jButton8; private javax.swing.JLabel jLabel1; private javax.swing.JLabel jLabel2; private javax.swing.JLabel jLabel3; private javax.swing.JPanel jPanel2; private javax.swing.JPanel jPanel3;
+1648 [] private javax.swing.JScrollPane jScrollPane1; private javax.swing.JScrollPane jScrollPane2; private javax.swing.JTable jTable1;
+1649 [] private javax.swing.JTextPane jTextPane1;
+1650 [] // End of variables declaration Help Form(Help.java)
+1651 [] /*
+1652 [ListParagraph] To change this template, choose Tools | Templates
+1653 [ListParagraph] and open the template in the editor.
+1654 [] */
+1655 [] /**
+1656 [] *
+1657 [ListParagraph] @author sand
+1658 [] */
+1659 [] public class help extends javax.swing.JFrame {
+1660 [] /**
+1661 [ListParagraph] Creates new form help
+1662 [] */
+1663 [] public help() { initComponents();
+1664 [] }
+1665 [] /**
+1666 [ListParagraph] This method is called from within the constructor to initialize the form.
+1667 [ListParagraph] WARNING: Do NOT modify this code. The content of this method is always
+1668 [ListParagraph] regenerated by the Form Editor.
+1669 [] */ @SuppressWarnings("unchecked")
+1670 [] // <editor-fold defaultstate="collapsed" desc="Generated Code"> private void initComponents() {
+1671 [] jPanel1 = new javax.swing.JPanel(); jLabel1 = new javax.swing.JLabel(); jLabel2 = new javax.swing.JLabel(); jLabel3 = new javax.swing.JLabel(); jLabel5 = new javax.swing.JLabel(); jLabel6 = new javax.swing.JLabel(); jLabel7 = new javax.swing.JLabel(); jLabel8 = new javax.swing.JLabel(); jLabel4 = new javax.swing.JLabel();
+1672 [] setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE); setAlwaysOnTop(true);
+1673 [] jLabel1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N jLabel1.setText("Some following steps :");
+1674 [] jLabel2.setText("1. First of all create database in which u want to import database in my sql. "); jLabel3.setText("2. Use this database.");
+1675 [] jLabel5.setText("3. Path ->sql file name."); jLabel6.setText("4. Example:-\\. E:\\career.sql");
+1676 [] jLabel7.setText(" -> here e: is a drive name nd career.sql is database who is already u have.");
+1677 [] jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/restorepic.png"))); // NOI18N
+1678 [] NG)
+1679 [] javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1); jPanel1.setLayout(jPanel1Layout);
+1680 [] jPanel1Layout.setHorizontalGroup( jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+1681 [] .addGroup(jPanel1Layout.createSequentialGroup()
+1682 [] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADI
+1683 [] .addGroup(jPanel1Layout.createSequentialGroup()
+1684 [] .addContainerGap()
+1685 [] .addComponent(jLabel1))
+1686 [] EADING)
+1687 [] .addGroup(jPanel1Layout.createSequentialGroup()
+1688 [] .addGap(24, 24, 24)
+1689 [] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.L
+1690 [] .addComponent(jLabel3)
+1691 [] .addComponent(jLabel2)
+1692 [] .addComponent(jLabel5)
+1693 [] .addComponent(jLabel6)
+1694 [] .addComponent(jLabel7)))
+1695 [] .addComponent(jLabel8))
+1696 [] .addContainerGap(47, Short.MAX_VALUE))
+1697 [] );
+1698 [] jPanel1Layout.setVerticalGroup( jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+1699 [] .addGroup(jPanel1Layout.createSequentialGroup()
+1700 [] .addComponent(jLabel1)
+1701 [] .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+1702 [] .addComponent(jLabel2)
+1703 [] .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+1704 [] .addComponent(jLabel3)
+1705 [] .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+1706 [] .addComponent(jLabel5)
+1707 [] .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+1708 [] .addComponent(jLabel6)
+1709 [] .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+1710 [] .addComponent(jLabel7)
+1711 [] .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+1712 [] .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 304, javax.swing.GroupLayout.PREFERRED_SIZE)
+1713 [] .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+1714 [] );
+1715 [] jLabel4.setFont(new java.awt.Font("Trebuchet MS", 1, 14)); // NOI18N jLabel4.setText("How to Import/ Restore Database in My SQL 5.5 Command Line:-");
+1716 [] javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane()); getContentPane().setLayout(layout);
+1717 [] layout.setHorizontalGroup( layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+1718 [] .addGroup(layout.createSequentialGroup()
+1719 [] .addGap(23, 23, 23)
+1720 [] .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+1721 [] .addContainerGap())
+1722 [] .addGroup(layout.createSequentialGroup()
+1723 [] .addGap(123, 123, 123)
+1724 [] .addComponent(jLabel4)
+1725 [] .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+1726 [] );
+1727 [] layout.setVerticalGroup( layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+1728 [] .addGroup(layout.createSequentialGroup()
+1729 [] .addComponent(jLabel4)
+1730 [] .addGap(25, 25, 25)
+1731 [] .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+1732 [] .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+1733 [] );
+1734 [] java.awt.Dimension screenSize = java.awt.Toolkit.getDefaultToolkit().getScreenSize(); setBounds((screenSize.width-724)/2, (screenSize.height-546)/2, 724, 546);
+1735 [] }// </editor-fold>
+1736 [] /**
+1737 [ListParagraph] @param args the command line arguments
+1738 [] */
+1739 [] public static void main(String args[]) {
+1740 [] /* Set the Nimbus look and feel */
+1741 [] //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
+1742 [] /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
+1743 [ListParagraph] For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html
+1744 [] */ try {
+1745 [] for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+1746 [] if ("Nimbus".equals(info.getName())) { javax.swing.UIManager.setLookAndFeel(info.getClassName()); break;
+1747 [] }
+1748 [] }
+1749 [] } catch (ClassNotFoundException ex) { java.util.logging.Logger.getLogger(help.class.getName()).log(java.util.logging.Level.SEVERE,
+1750 [] null, ex);
+1751 [] } catch (InstantiationException ex) { java.util.logging.Logger.getLogger(help.class.getName()).log(java.util.logging.Level.SEVERE,
+1752 [] null, ex);
+1753 [] } catch (IllegalAccessException ex) { java.util.logging.Logger.getLogger(help.class.getName()).log(java.util.logging.Level.SEVERE,
+1754 [] null, ex);
+1755 [] } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+1756 [] java.util.logging.Logger.getLogger(help.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+1757 [] }
+1758 [] //</editor-fold>
+1759 [] /* Create and display the form */ java.awt.EventQueue.invokeLater(new Runnable() {
+1760 [] public void run() {
+1761 [] new help().setVisible(true);
+1762 [] }
+1763 [] });
+1764 [] }
+1765 [] // Variables declaration - do not modify private javax.swing.JLabel jLabel1; private javax.swing.JLabel jLabel2; private javax.swing.JLabel jLabel3; private javax.swing.JLabel jLabel4; private javax.swing.JLabel jLabel5; private javax.swing.JLabel jLabel6; private javax.swing.JLabel jLabel7; private javax.swing.JLabel jLabel8; private javax.swing.JPanel jPanel1;
+1766 [] // End of variables declaration
+1767 [] }
+1768 [] Change user password(Change _user_ password.java)
+1769 [BodyText] Code :
+1770 [BodyText] import java.io.File;
+1771 [BodyText] import java.io.FileInputStream; import java.io.InputStream; import java.sql.Connection; import java.sql.DriverManager;
+1772 [BodyText] import java.sql.PreparedStatement; import java.sql.ResultSet;
+1773 [BodyText] import java.sql.Statement; import javax.swing.JOptionPane;
+1774 [BodyText] /*
+1775 [ListParagraph] To change this template, choose Tools | Templates
+1776 [ListParagraph] and open the template in the editor.
+1777 [BodyText] */
+1778 [BodyText] /**
+1779 [BodyText] *
+1780 [ListParagraph] @author sand
+1781 [BodyText] */
+1782 [BodyText] public class change_user_password_form extends javax.swing.JFrame {
+1783 [BodyText] /**
+1784 [ListParagraph] Creates new form change_user_password_form
+1785 [BodyText] */
+1786 [BodyText] public change_user_password_form() { initComponents();
+1787 [BodyText] }
+1788 [BodyText] /**
+1789 [ListParagraph] This method is called from within the constructor to initialize the form.
+1790 [ListParagraph] WARNING: Do NOT modify this code. The content of this method is always
+1791 [ListParagraph] regenerated by the Form Editor.
+1792 [BodyText] */ @SuppressWarnings("unchecked")
+1793 [BodyText] // <editor-fold defaultstate="collapsed" desc="Generated Code"> private void initComponents() {
+1794 [BodyText] jPanel1 = new javax.swing.JPanel(); jLabel1 = new javax.swing.JLabel(); jLabel2 = new javax.swing.JLabel(); jLabel3 = new javax.swing.JLabel(); txtpass = new javax.swing.JTextField();
+1795 [BodyText] txtconpass = new javax.swing.JTextField(); txtoldpass = new javax.swing.JTextField(); jButton1 = new javax.swing.JButton(); jLabel4 = new javax.swing.JLabel();
+1796 [BodyText] jLabel5 = new javax.swing.JLabel(); userid = new javax.swing.JTextField(); jLabel6 = new javax.swing.JLabel(); lblname = new javax.swing.JLabel();
+1797 [BodyText] setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE); jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder(new
+1798 [BodyText] java.awt.Color(204, 204, 204), new java.awt.Color(204, 204, 204)));
+1799 [BodyText] jLabel1.setText("Password :"); jLabel2.setText("Conform password :"); jLabel3.setText("Old Password :");
+1800 [BodyText] jButton1.setText("CHANGE");
+1801 [BodyText] jButton1.addActionListener(new java.awt.event.ActionListener() { public void actionPerformed(java.awt.event.ActionEvent evt) {
+1802 [BodyText] jButton1ActionPerformed(evt);
+1803 [BodyText] }
+1804 [BodyText] });
+1805 [BodyText] javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1); jPanel1.setLayout(jPanel1Layout);
+1806 [BodyText] jPanel1Layout.setHorizontalGroup( jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+1807 [BodyText] .addGroup(jPanel1Layout.createSequentialGroup()
+1808 [BodyText] .addGap(67, 67, 67)
+1809 [BodyText] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignmen t.TRAILING)
+1810 [BodyText] .addComponent(jLabel3)
+1811 [BodyText] .addComponent(jLabel1)
+1812 [BodyText] .addComponent(jLabel2))
+1813 [BodyText] .addGap(59, 59, 59)
+1814 [BodyText] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignmen t.TRAILING)
+1815 [BodyText] .addComponent(txtpass)
+1816 [BodyText] .addComponent(txtoldpass, javax.swing.GroupLayout.DEFAULT_SIZE, 166, Short.MAX_VALUE)
+1817 [BodyText] .addComponent(txtconpass, javax.swing.GroupLayout.Alignment.LEADING))
+1818 [BodyText] .addContainerGap())
+1819 [BodyText] .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+1820 [BodyText] .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+1821 [BodyText] .addComponent(jButton1)
+1822 [BodyText] .addGap(155, 155, 155))
+1823 [BodyText] );
+1824 [BodyText] jPanel1Layout.setVerticalGroup( jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+1825 [BodyText] .addGroup(jPanel1Layout.createSequentialGroup()
+1826 [BodyText] .addGap(21, 21, 21)
+1827 [BodyText] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignmen t.BASELINE)
+1828 [BodyText] .addComponent(jLabel1)
+1829 [BodyText] .addComponent(txtpass, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+1830 [BodyText] .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+1831 [BodyText] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignmen t.BASELINE)
+1832 [BodyText] .addComponent(jLabel2)
+1833 [BodyText] .addComponent(txtconpass, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+1834 [BodyText] .addGap(18, 18, 18)
+1835 [BodyText] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignmen t.BASELINE)
+1836 [BodyText] .addComponent(jLabel3)
+1837 [BodyText] .addComponent(txtoldpass, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+1838 [BodyText] .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 35, Short.MAX_VALUE)
+1839 [BodyText] .addComponent(jButton1)
+1840 [BodyText] .addGap(20, 20, 20))
+1841 [BodyText] );
+1842 [BodyText] jLabel4.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N jLabel4.setText("CHANGE USER PASSWORD :");
+1843 [BodyText] jLabel5.setText("Enter User Id :"); userid.addKeyListener(new java.awt.event.KeyAdapter() {
+1844 [BodyText] public void keyReleased(java.awt.event.KeyEvent evt) {
+1845 [BodyText] useridKeyReleased(evt);
+1846 [BodyText] }
+1847 [BodyText] });
+1848 [BodyText] jLabel6.setText("Name :"); lblname.setText("");
+1849 [BodyText] javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane()); getContentPane().setLayout(layout);
+1850 [BodyText] layout.setHorizontalGroup( layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+1851 [BodyText] .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+1852 [BodyText] .addContainerGap()
+1853 [BodyText] .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAIL
+1854 [BodyText] ING)
+1855 [BodyText] )
+1856 [BodyText] .addGroup(layout.createSequentialGroup()
+1857 [BodyText] .addComponent(jLabel5)
+1858 [BodyText] .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED
+1859 [BodyText] .addComponent(userid, javax.swing.GroupLayout.PREFERRED_SIZE, 72,
+1860 [BodyText] javax.swing.GroupLayout.PREFERRED_SIZE)
+1861 [BodyText] .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+1862 [BodyText] .addComponent(jLabel6)
+1863 [BodyText] .addGap(18, 18, 18)
+1864 [BodyText] .addComponent(lblname, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+1865 [BodyText] .addGroup(layout.createSequentialGroup()
+1866 [BodyText] .addGap(0, 56, Short.MAX_VALUE)
+1867 [BodyText] .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.T
+1868 [BodyText] RAILING)
+1869 [BodyText] .addGroup(layout.createSequentialGroup()
+1870 [BodyText] .addComponent(jLabel4)
+1871 [BodyText] .addGap(86, 86, 86))
+1872 [BodyText] .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE,
+1873 [BodyText] javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+1874 [BodyText] .addGap(55, 55, 55))
+1875 [BodyText] );
+1876 [BodyText] layout.setVerticalGroup( layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+1877 [BodyText] .addGroup(layout.createSequentialGroup()
+1878 [BodyText] .addContainerGap()
+1879 [BodyText] .addComponent(jLabel4)
+1880 [BodyText] .addGap(6, 6, 6)
+1881 [BodyText] .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASEL
+1882 [BodyText] INE)
+1883 [BodyText] .addComponent(jLabel5)
+1884 [BodyText] .addComponent(userid, javax.swing.GroupLayout.PREFERRED_SIZE,
+1885 [BodyText] javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+1886 [BodyText] .addComponent(jLabel6)
+1887 [BodyText] .addComponent(lblname))
+1888 [BodyText] .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+1889 [BodyText] .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+1890 [BodyText] .addContainerGap(45, Short.MAX_VALUE))
+1891 [BodyText] );
+1892 [BodyText] setBounds(300, 110, 540, 334);
+1893 [BodyText] }// </editor-fold>
+1894 [BodyText] private void useridKeyReleased(java.awt.event.KeyEvent evt) { Statement st;
+1895 [BodyText] Connection cn;
+1896 [BodyText] ResultSet rs;
+1897 [BodyText] String admission,username; int admissionno,date ,year; admission=userid.getText();
+1898 [BodyText] admissionno=Integer.parseInt(admission); try
+1899 [BodyText] {
+1900 [BodyText] Class.forName("com.mysql.jdbc.Driver");
+1901 [BodyText] cn=DriverManager.getConnection("jdbc:mysql://localhost:3306/school","root","sandip"); st=cn.createStatement();
+1902 [BodyText] String sql="Select * from userinfo where id ="+admissionno+" "; rs=st.executeQuery(sql);
+1903 [BodyText] if(rs.next())
+1904 [BodyText] {
+1905 [BodyText] username=rs.getString("firstname"); lblname.setText(username);
+1906 [BodyText] }
+1907 [BodyText] }
+1908 [BodyText] catch(Exception e)
+1909 [BodyText] {
+1910 [BodyText] JOptionPane.showMessageDialog(null, e.getMessage());
+1911 [BodyText] }
+1912 [BodyText] // TODO add your handling code here:
+1913 [BodyText] }
+1914 [BodyText] private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
+1915 [BodyText] Statement st1;
+1916 [BodyText] Connection cn1; boolean q;
+1917 [BodyText] String pass,conpass,oldpass; int admissionno,id;
+1918 [BodyText] id = Integer.parseInt(userid.getText()); pass= txtpass.getText();
+1919 [BodyText] conpass= txtconpass.getText();
+1920 [BodyText] oldpass= txtoldpass.getText();
+1921 [BodyText] try
+1922 [BodyText] {
+1923 [BodyText] Class.forName("com.mysql.jdbc.Driver");
+1924 [BodyText] cn1=DriverManager.getConnection("jdbc:mysql://localhost:3306/school","root","sandip"); if(JOptionPane.showConfirmDialog(rootPane, "Do you want to change your
+1925 [BodyText] password?")==JOptionPane.YES_OPTION)
+1926 [BodyText] {
+1927 [BodyText] PreparedStatement statement = cn1.prepareStatement("UPDATE userinfo SET password= ?,repassword = ? WHERE id = "+id+""); //ps.setString(1, (String) jTable1. getValueAt(x, 0));
+1928 [BodyText] statement.setString(1,pass); statement.setString(2,conpass);
+1929 [BodyText] int row = statement.executeUpdate(); if (row > 0)
+1930 [BodyText] {
+1931 [BodyText] JOptionPane.showMessageDialog(rootPane,"Passwword is Succesfully Changed ");
+1932 [BodyText] }
+1933 [BodyText] }
+1934 [BodyText] }
+1935 [BodyText] catch(Exception e)
+1936 [BodyText] {
+1937 [BodyText] JOptionPane.showMessageDialog(rootPane,e.getMessage());
+1938 [BodyText] }
+1939 [BodyText] // TODO add your handling code here:
+1940 [BodyText] }
+1941 [BodyText] /**
+1942 [ListParagraph] @param args the command line arguments
+1943 [BodyText] */
+1944 [BodyText] public static void main(String args[]) {
+1945 [BodyText] /* Set the Nimbus look and feel */
+1946 [BodyText] //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
+1947 [BodyText] /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
+1948 [BodyText] * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html
+1949 [BodyText] */ try {
+1950 [BodyText] for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+1951 [BodyText] if ("Nimbus".equals(info.getName())) { javax.swing.UIManager.setLookAndFeel(info.getClassName()); break;
+1952 [BodyText] }
+1953 [BodyText] }
+1954 [BodyText] } catch (ClassNotFoundException ex) {
+1955 [BodyText] java.util.logging.Logger.getLogger(change_user_password_form.class.getName()).log(java. util.logging.Level.SEVERE, null, ex);
+1956 [BodyText] } catch (InstantiationException ex) {
+1957 [BodyText] java.util.logging.Logger.getLogger(change_user_password_form.class.getName()).log(java. util.logging.Level.SEVERE, null, ex);
+1958 [BodyText] } catch (IllegalAccessException ex) {
+1959 [BodyText] java.util.logging.Logger.getLogger(change_user_password_form.class.getName()).log(java. util.logging.Level.SEVERE, null, ex);
+1960 [BodyText] } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+1961 [BodyText] java.util.logging.Logger.getLogger(change_user_password_form.class.getName()).log(java. util.logging.Level.SEVERE, null, ex);
+1962 [BodyText] }
+1963 [BodyText] //</editor-fold>
+1964 [BodyText] /* Create and display the form */ java.awt.EventQueue.invokeLater(new Runnable() {
+1965 [BodyText] public void run() {
+1966 [BodyText] new change_user_password_form().setVisible(true);
+1967 [BodyText] }
+1968 [BodyText] });
+1969 [BodyText] }
+1970 [BodyText] // Variables declaration - do not modify private javax.swing.JButton jButton1;
+1971 [BodyText] private javax.swing.JLabel jLabel1; private javax.swing.JLabel jLabel2; private javax.swing.JLabel jLabel3; private javax.swing.JLabel jLabel4; private javax.swing.JLabel jLabel5; private javax.swing.JLabel jLabel6; private javax.swing.JPanel jPanel1; private javax.swing.JLabel lblname;
+1972 [BodyText] private javax.swing.JTextField txtconpass; private javax.swing.JTextField txtoldpass; private javax.swing.JTextField txtpass; private javax.swing.JTextField userid;
+1973 [BodyText] // End of variables declaration
+1974 [BodyText] }
+1975 [BodyText] Change admin password(Change_admin_password.java)
+1976 [BodyText] Code:
+1977 [BodyText] import java.sql.Connection; import java.sql.DriverManager;
+1978 [BodyText] import java.sql.PreparedStatement; import java.sql.Statement;
+1979 [BodyText] import javax.swing.JOptionPane;
+1980 [BodyText] /*
+1981 [ListParagraph] To change this template, choose Tools | Templates
+1982 [ListParagraph] and open the template in the editor.
+1983 [BodyText] */
+1984 [BodyText] /**
+1985 [BodyText] *
+1986 [ListParagraph] @author sand
+1987 [BodyText] */
+1988 [BodyText] public class change_admin_password_form extends javax.swing.JFrame {
+1989 [BodyText] /**
+1990 [ListParagraph] Creates new form change_user_password_form
+1991 [BodyText] */
+1992 [BodyText] public change_admin_password_form() { initComponents();
+1993 [BodyText] }
+1994 [BodyText] /**
+1995 [ListParagraph] This method is called from within the constructor to initialize the form.
+1996 [ListParagraph] WARNING: Do NOT modify this code. The content of this method is always
+1997 [ListParagraph] regenerated by the Form Editor.
+1998 [BodyText] */ @SuppressWarnings("unchecked")
+1999 [BodyText] // <editor-fold defaultstate="collapsed" desc="Generated Code"> private void initComponents() {
+2000 [BodyText] jPanel1 = new javax.swing.JPanel(); jLabel1 = new javax.swing.JLabel(); jLabel2 = new javax.swing.JLabel(); jLabel3 = new javax.swing.JLabel(); txtpass = new javax.swing.JTextField();
+2001 [BodyText] txtconpass = new javax.swing.JTextField(); txtoldpass = new javax.swing.JTextField(); jButton1 = new javax.swing.JButton(); jLabel4 = new javax.swing.JLabel();
+2002 [BodyText] setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE); jLabel1.setText("Password :");
+2003 [BodyText] jLabel2.setText("Conform password :");
+2004 [BodyText] jLabel3.setText("Old Password :"); jButton1.setText("CHANGE");
+2005 [BodyText] jButton1.addActionListener(new java.awt.event.ActionListener() { public void actionPerformed(java.awt.event.ActionEvent evt) {
+2006 [BodyText] jButton1ActionPerformed(evt);
+2007 [BodyText] }
+2008 [BodyText] });
+2009 [BodyText] javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1); jPanel1.setLayout(jPanel1Layout);
+2010 [BodyText] jPanel1Layout.setHorizontalGroup( jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+2011 [BodyText] .addGroup(jPanel1Layout.createSequentialGroup()
+2012 [BodyText] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignmen t.LEADING)
+2013 [BodyText] .addGroup(jPanel1Layout.createSequentialGroup()
+2014 [BodyText] .addGap(67, 67, 67)
+2015 [BodyText] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Align ment.TRAILING)
+2016 [BodyText] .addComponent(jLabel3)
+2017 [BodyText] .addComponent(jLabel1)
+2018 [BodyText] .addComponent(jLabel2))
+2019 [BodyText] .addGap(59, 59, 59)
+2020 [BodyText] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Align ment.TRAILING)
+2021 [BodyText] .addComponent(txtpass)
+2022 [BodyText] .addComponent(txtoldpass, javax.swing.GroupLayout.DEFAULT_SIZE, 166, Short.MAX_VALUE)
+2023 [BodyText] .addComponent(txtconpass, javax.swing.GroupLayout.Alignment.LEADING)))
+2024 [BodyText] .addGroup(jPanel1Layout.createSequentialGroup()
+2025 [BodyText] .addGap(159, 159, 159)
+2026 [BodyText] .addComponent(jButton1)))
+2027 [BodyText] .addContainerGap())
+2028 [BodyText] );
+2029 [BodyText] jPanel1Layout.setVerticalGroup( jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+2030 [BodyText] .addGroup(jPanel1Layout.createSequentialGroup()
+2031 [BodyText] .addGap(21, 21, 21)
+2032 [BodyText] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignmen t.BASELINE)
+2033 [BodyText] .addComponent(jLabel1)
+2034 [BodyText] .addComponent(txtpass, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+2035 [BodyText] .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+2036 [BodyText] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignmen t.BASELINE)
+2037 [BodyText] .addComponent(jLabel2)
+2038 [BodyText] .addComponent(txtconpass, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+2039 [BodyText] .addGap(18, 18, 18)
+2040 [BodyText] .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignmen t.BASELINE)
+2041 [BodyText] .addComponent(jLabel3)
+2042 [BodyText] .addComponent(txtoldpass, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+2043 [BodyText] .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 36, Short.MAX_VALUE)
+2044 [BodyText] .addComponent(jButton1)
+2045 [BodyText] .addGap(19, 19, 19))
+2046 [BodyText] );
+2047 [BodyText] jLabel4.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+2048 [BodyText] jLabel4.setForeground(new java.awt.Color(51, 0, 0)); jLabel4.setText("CHANGE ADMIN PASSWORD :");
+2049 [BodyText] NG)
+2050 [BodyText] javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane()); getContentPane().setLayout(layout);
+2051 [BodyText] layout.setHorizontalGroup( layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+2052 [BodyText] .addGroup(layout.createSequentialGroup()
+2053 [BodyText] .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+2054 [BodyText] .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADI
+2055 [BodyText] .addGroup(javax.swing.GroupLayout.Alignment.TRAILING,
+2056 [BodyText] layout.createSequentialGroup()
+2057 [BodyText] .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+2058 [BodyText] .addGap(29, 29, 29))
+2059 [BodyText] .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+2060 [BodyText] .addComponent(jLabel4)
+2061 [BodyText] .addGap(126, 126, 126))))
+2062 [BodyText] );
+2063 [BodyText] layout.setVerticalGroup( layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+2064 [BodyText] .addGroup(layout.createSequentialGroup()
+2065 [BodyText] .addContainerGap()
+2066 [BodyText] .addComponent(jLabel4)
+2067 [BodyText] .addGap(20, 20, 20)
+2068 [BodyText] .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+2069 [BodyText] .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+2070 [BodyText] );
+2071 [BodyText] pack();
+2072 [BodyText] java.awt.Dimension screenSize = java.awt.Toolkit.getDefaultToolkit().getScreenSize(); java.awt.Dimension dialogSize = getSize();
+2073 [BodyText] setLocation((screenSize.width-dialogSize.width)/2,(screenSize.height- dialogSize.height)/2);
+2074 [BodyText] }// </editor-fold>
+2075 [BodyText] private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
+2076 [BodyText] Statement st1; Connection cn1; boolean q;
+2077 [BodyText] String pass,conpass,oldpass; int admissionno,id;
+2078 [BodyText] id=2;
+2079 [BodyText] pass= txtpass.getText(); conpass= txtconpass.getText(); oldpass= txtoldpass.getText();
+2080 [BodyText] try
+2081 [BodyText] {
+2082 [BodyText] Class.forName("com.mysql.jdbc.Driver");
+2083 [BodyText] cn1=DriverManager.getConnection("jdbc:mysql://localhost:3306/school","root","sandip"); if(JOptionPane.showConfirmDialog(rootPane, "Do you want to change your
+2084 [BodyText] password?")==JOptionPane.YES_OPTION)
+2085 [BodyText] {
+2086 [BodyText] PreparedStatement statement = cn1.prepareStatement("UPDATE login SET password= ? WHERE id = "+id+""); //ps.setString(1, (String) jTable1. getValueAt(x, 0));
+2087 [BodyText] statement.setString(1,pass);
+2088 [BodyText] int row = statement.executeUpdate(); if (row > 0)
+2089 [BodyText] {
+2090 [BodyText] JOptionPane.showMessageDialog(rootPane,"Passwword is Succesfully Changed ");
+2091 [BodyText] }
+2092 [BodyText] }
+2093 [BodyText] }
+2094 [BodyText] catch(Exception e)
+2095 [BodyText] {
+2096 [BodyText] JOptionPane.showMessageDialog(rootPane,e.getMessage());
+2097 [BodyText] }
+2098 [BodyText] // TODO add your handling code here:
+2099 [BodyText] }
+2100 [BodyText] /**
+2101 [ListParagraph] @param args the command line arguments
+2102 [BodyText] */
+2103 [BodyText] public static void main(String args[]) {
+2104 [BodyText] /* Set the Nimbus look and feel */
+2105 [BodyText] //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
+2106 [BodyText] /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
+2107 [BodyText] * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html
+2108 [BodyText] */ try {
+2109 [BodyText] for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+2110 [BodyText] if ("Nimbus".equals(info.getName())) { javax.swing.UIManager.setLookAndFeel(info.getClassName()); break;
+2111 [BodyText] }
+2112 [BodyText] }
+2113 [BodyText] } catch (ClassNotFoundException ex) {
+2114 [BodyText] java.util.logging.Logger.getLogger(change_user_password_form.class.getName()).log(java. util.logging.Level.SEVERE, null, ex);
+2115 [BodyText] } catch (InstantiationException ex) {
+2116 [BodyText] java.util.logging.Logger.getLogger(change_user_password_form.class.getName()).log(java. util.logging.Level.SEVERE, null, ex);
+2117 [BodyText] } catch (IllegalAccessException ex) {
+2118 [BodyText] java.util.logging.Logger.getLogger(change_user_password_form.class.getName()).log(java. util.logging.Level.SEVERE, null, ex);
+2119 [BodyText] } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+2120 [BodyText] java.util.logging.Logger.getLogger(change_user_password_form.class.getName()).log(java. util.logging.Level.SEVERE, null, ex);
+2121 [BodyText] }
+2122 [BodyText] //</editor-fold>
+2123 [BodyText] /* Create and display the form */ java.awt.EventQueue.invokeLater(new Runnable() {
+2124 [BodyText] public void run() {
+2125 [BodyText] new change_admin_password_form().setVisible(true);
+2126 [BodyText] }
+2127 [BodyText] });
+2128 [BodyText] }
+2129 [BodyText] // Variables declaration - do not modify private javax.swing.JButton jButton1; private javax.swing.JLabel jLabel1; private javax.swing.JLabel jLabel2; private javax.swing.JLabel jLabel3; private javax.swing.JLabel jLabel4; private javax.swing.JPanel jPanel1;
+2130 [BodyText] private javax.swing.JTextField txtconpass; private javax.swing.JTextField txtoldpass; private javax.swing.JTextField txtpass;
+2131 [BodyText] // End of variables declaration
+2132 [BodyText] }
+2133 [Heading1] BIBLIOGRAPHY
+2134 [ListParagraph] Software Engineering, by Roger S. Pressman.
+2135 [ListParagraph] MYsql: The Complete Reference
+2136 [] CONCURRENT PROGRAMMING IN JAVA by Doug Lea
+2137 [ListParagraph] Black Bookby Steven Holzner et al.
+2138 [ListParagraph] REFERENCES
